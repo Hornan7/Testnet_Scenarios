@@ -8,44 +8,28 @@ In order to more easily test the results of these votes, I will choose Governanc
 * Then, I will be able to trigger the results of the scenarios using a DReps that has the capacity to cross the DRep Threshold on its own.
   
 ## Stage 1
-I will ask you to vote on the 2 governance actions below. Then, when the results are out, I will build the governance actions of Stage 2.
+I will ask you to vote on the governance action below. Then, when the results are out, I will build the governance action of Stage 2.
+Only 4 CC-members of the 9 total have made their authorization certificate and can vote using their hot keys. 
 
 ### Governance action 1 - Protocol Parameters Update
-#### TxId: `673t96t43643843804378430878004374087#0`
+#### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
+### Goal: The Goal is to verify if the CC-members who haven't authorize their hot keys yet will be considered in the voting quorum (1/3)
 
-| CC Member             | Vote asked | Vote done |
-|-----------------------|------------|-----------|
-| Mike Hornan (ABLE)    | `yes`      |           |
-| Johnny Kelly          | `yes`      |           |
-| Mladen (RUMOR)        | `yes`      |           |
-| Smaug                 | `no`       |           |
-| Martin (ATADA)        | `no`       |           |
-| Jonah                 | `no`       |           |
-| Nicolas Lovecoach     | `abstain`  |           |
-| Adam                  | `abstain`  |           |
-| Rick McCracken (DIGI) | `abstain`  |           |
+| CC Member             | Vote asked    | Vote done |
+|-----------------------|---------------|-----------|
+| Mike Hornan (ABLE)    | `yes`         | `yes`     |
+| Johnny Kelly          | `yes`         | `yes`     |
+| Mladen (RUMOR)        | `unauthorized`|           |
+| Smaug                 | `unauthorized`|           |
+| Martin (ATADA)        | `unauthorized`|           |
+| Jonah                 | `unauthorized`|           |
+| Nicolas Lovecoach     | `authorized`  | none      |
+| Adam                  | `unauthorized`|           |
+| Rick McCracken (DIGI) | `authorized`  | none      |
 ---
 
-### Expected Result
-### Result
-### Comments
-
-### Governance action 2 - Treasury Withdrawal
-#### TxId: `673t96t43643843804378430878004374087#0`
-
-| CC Member             | Vote asked | Vote done |
-|-----------------------|------------|-----------|
-| Mike Hornan (ABLE)    | `yes`      |           |
-| Johnny Kelly          | `yes`      |           |
-| Mladen (RUMOR)        | `yes`      |           |
-| Smaug                 | `no`       |           |
-| Martin (ATADA)        | `no`       |           |
-| Jonah                 | `no`       |           |
-| Nicolas Lovecoach     | `abstain`  |           |
-| Adam                  | `abstain`  |           |
-| Rick McCracken (DIGI) | `abstain`  |           |
----
-
-### Expected Result
+### Expected Results
+- 2 yes votes with only 4 active members considered = RATIFIED
+- 2 yes votes with all 9 members considered = NOTHING HAPPEN
 ### Result
 ### Comments

@@ -11,7 +11,7 @@ In order to more easily test the results of these votes, I will choose Governanc
 I will ask you to vote on the governance action below. Then, when the results are out, I will build the governance action of Stage 2.
 Only 4 CC-members of the 9 total have made their authorization certificate and can vote using their hot keys. 
 
-### Governance action 1 - Protocol Parameters Update
+### Governance action 1 - Protocol Parameters Update (Epoch 194)
 #### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
 ### Goal: The Goal is to verify if the CC-members who haven't authorize their hot keys yet will be considered in the voting quorum (1/3)
 
@@ -28,8 +28,8 @@ Only 4 CC-members of the 9 total have made their authorization certificate and c
 | Rick McCracken (DIGI) | `authorized`  | none      |
 ---
 
-### Expected Results
+### Expected Results (Epoch 197)
 - 2 yes votes with only 4 active members considered = RATIFIED
 - 2 yes votes with all 9 members considered = NOTHING HAPPEN
-### Result
+### Result (Epoch 198)
 ### Comments

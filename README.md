@@ -58,6 +58,7 @@ To do this, we will need 3 yes votes in total and when I have the results at the
 ---
 
 ### Expected Results (Epoch 198)
-- 3 `Yes` votes with a Quorum of (1/3) for 9 CC-members = RATIFIED
+- 3 `Yes` votes with 9 CC-members if Quorum (1/3) should be reached = RATIFIED
+- 3 `Yes` votes with 9 CC-members if Quorum (1/3) should be crossed = NOTHING HAPPEN
 ### Result (Epoch 199)
 ### Comments

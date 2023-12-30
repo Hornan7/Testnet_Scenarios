@@ -52,8 +52,8 @@ To do this, we will need 3 yes votes in total and when I have the results at the
 | Smaug                 | `unauthorized`  | `none`     | `none`    |
 | Martin (ATADA)        | `unauthorized`  | `none`     | `none`    |
 | Jonah                 | `unauthorized`  | `none`     | `none`    |
-| Nicolas Lovecoach     | `authorized`    | `none`     | `none`    |
-| Adam                  | `authorized`    | `Yes`      | `Yes`     |
+| Nicolas Lovecoach     | `authorized`    | `Yes`      | `Yes`     |
+| Adam                  | `authorized`    | `none`     | `none`    |
 | Rick McCracken (DIGI) | `authorized`    | `none`     | `none`    |
 ---
 

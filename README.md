@@ -7,8 +7,8 @@ In order to more easily test the results of these votes, I will choose Governanc
 * When all the votes of the members of the Constitutional Committee are included in the ledger we will be able to compare the results against our expectations.
 * Then, I will be able to trigger the results of the scenarios using a DReps that has the capacity to cross the DRep Threshold on its own.
   
-# Stage 1
-I will ask you to vote on the governance action below. Then, when the results are out, I will build the governance action of Stage 2.
+# First Test
+I will ask you to vote on the governance action below. Then, when the results are out, I will build the governance action of the second test.
 Only 4 Constitutional Committee members of the 9 total have made their authorization certificate and can vote using their hot keys. 
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
@@ -36,9 +36,9 @@ The results were positive, the 2 `Yes` votes were not enough to reach quorum. So
 #### Comments:
 Honestly, it’s a relief. Because I would have hated the simple possibility of having, even for a moment, an authorized member of the Constitutional Committee who could single-handedly decide the outcome of a governance action. I'm glad that's not the case.
 
-# Stage 2
+# Second Test
 Now that we know the outcome of Stage 1, I would like to determine if the Quorum should simply be reached or if it should be crossed.
-To do this, we will need 3 yes votes in total and when I have the results at the next Epoch, we will move on to Stage 3. 
+To do this, we will need 3 yes votes in total and when I have the results at the next Epoch, we will move on to the third test. 
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
 #### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
@@ -66,9 +66,9 @@ Three `Yes` votes were enough to ratify the governance action. So in conclusion 
 The results of this test, although positive, lead me to see the negative aspect of having a Constitutional Committee quorum below 51%. 
 This would allow a minority of CC-members to ratify governance actions at the last minute, just before the Epoch Boundary, without giving other CC-members time to vote. This could be detrimental to achieving equitable governance.
 
-# Stage 3
+# Third Test
 Now that our governance action is ratified, and therefore enacted at the next Epoch Boundary, all previous `Yes` votes will be changed to `No` votes with no limit on the number of votes. 
-We will then move on to Stage 4 at the next Epoch when I have the results.
+We will then move on to fourth test at the next Epoch when I have the results.
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
 #### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
@@ -83,7 +83,7 @@ We will then move on to Stage 4 at the next Epoch when I have the results.
 | Martin (ATADA)        | `unauthorized`  | `none`     | `none`    |
 | Jonah                 | `unauthorized`  | `No`       | `none`    |
 | Nicolas Lovecoach     | `authorized`    | `No`       | `No`      |
-| Adam                  | `authorized`    | `No`       | `none`    |
+| Adam                  | `authorized`    | `No`       | `No`      |
 | Rick McCracken (DIGI) | `authorized`    | `No`       | `none`    |
 ---
 
@@ -91,5 +91,7 @@ We will then move on to Stage 4 at the next Epoch when I have the results.
 - If votes on ratified but not yet enacted governance actions are considered = NO ENACTMENT
 - If votes on ratified but not yet enacted governance actions are not considered = ENACTMENT
 #### Result on Epoch 200
-
+Votes taken by the Constitutional Committee are no longer considered for a governance action after its ratification.
+It will be enacted whether they change their votes or not. (These results exclude the governance action "No-confidence", which will also be tested later.)
 #### Comments:
+This test allowed me to notice some possibly confusing changes to the governance state: `enactState`{previous, current and next ratify state}. The next voting tests and governance action's ratification will allow me to know more about these changes.

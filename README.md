@@ -12,8 +12,9 @@ I will ask you to vote on the governance action below. Then, when the results ar
 Only 4 Constitutional Committee members of the 9 total have made their authorization certificate and can vote using their hot keys. 
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
-#### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
-#### Goal: The Goal is to verify if the CC-members who haven't authorize their hot keys yet will be considered in the voting quorum (1/3)
+- TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
+- Parameter changed: `pvtHardForkInitiation` from `0.01` to `0.51`
+- The Goal is to verify if the CC-members who haven't authorize their hot keys yet will be considered in the voting quorum (1/3)
 
 | CC Member             | Hot Keys State  | Vote asked | Vote done |
 |-----------------------|-----------------|------------|-----------|
@@ -41,8 +42,9 @@ Now that we know the outcome of Stage 1, I would like to determine if the Quorum
 To do this, we will need 3 yes votes in total and when I have the results at the next Epoch, we will move on to the third test. 
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
-#### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
-#### Goal: The Goal is to know if the quorum (1/3) should simply be reached or crossed
+- TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
+- Parameter changed: `pvtHardForkInitiation` from `0.01` to `0.51`
+- The Goal is to know if the quorum (1/3) should simply be reached or crossed
 
 | CC Member             | Hot Keys State  | Vote asked | Vote done |
 |-----------------------|-----------------|------------|-----------|
@@ -71,8 +73,9 @@ Now that our governance action is ratified, and therefore enacted at the next Ep
 We will then move on to fourth test at the next Epoch when I have the results.
 
 ## Governance action 1 - Protocol Parameters Update (Epoch 194)
-#### TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
-#### Goal: The Goal is to know if the ratified governance action can be "countered" before its enactment on the next Epoch Boundary.
+- TxId: `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0`
+- Parameter changed: `pvtHardForkInitiation` from `0.01` to `0.51`
+- The Goal is to know if the ratified governance action can be "countered" before its enactment on the next Epoch Boundary.
 
 | CC Member             | Hot Keys State  | Vote asked | Vote done |
 |-----------------------|-----------------|------------|-----------|
@@ -95,3 +98,33 @@ Votes taken by the Constitutional Committee are no longer considered for a gover
 It will be enacted whether they change their votes or not. (These results exclude the governance action "No-confidence", which will also be tested later.)
 #### Comments:
 This test allowed me to notice some possibly confusing changes to the governance state: `enactState`{previous, current and next ratify state}. The next voting tests and governance action's ratification will allow me to know more about these changes.
+
+# Fourth Test
+Now that the governance action `eec0e234dd5b7e7daef5c4bfb9474025efe15d009843a2f4f01c3a40f98f2ce1#0` is enacted, 
+I will build a new governance action which will turn out to be the last before the test serving to modify the state of some Constitutional Committee members.
+
+## Governance action 2 - Protocol Parameters Update (Epoch 201)
+- TxId: `66ff5be390dac61910f0b26d9f9a4a2e5d02d9fa5cca486577b02aebe7c90e0f#0`
+- Parameter changed: `committeeMinSize` from `0` to `3`  
+- The Goal is to validate whether the `No` votes actually play against the `Yes` votes in the governance mechanism of the Constitutional Committee when the quorum is reached.
+
+| CC Member             | Hot Keys State  | Vote asked | Vote done |
+|-----------------------|-----------------|------------|-----------|
+| Mike Hornan (ABLE)    | `authorized`    | `No`       | `No`      |
+| Johnny Kelly          | `authorized`    | `No`       | `No`      |
+| Mladen (RUMOR)        | `unauthorized`  | `Yes`      | `none`    |
+| Smaug                 | `unauthorized`  | `none`     | `none`    |
+| Martin (ATADA)        | `unauthorized`  | `none`     | `none`    |
+| Jonah                 | `unauthorized`  | `Yes`      | `none`    |
+| Nicolas Lovecoach     | `authorized`    | `No`       | `No`      |
+| Adam                  | `authorized`    | `Yes`      | `none`    |
+| Rick McCracken (DIGI) | `authorized`    | `Yes`      | `Yes`     |
+---
+
+#### Expected Results at Epoch 201
+- The governance action should not be ratified until the number of `Yes` votes exceeds the number of `No` votes with a quorum reached. (ex: 3 `No` votes and 4 `Yes` votes)
+- The governance action should not be ratified until the number of `Yes` votes exceeds the number of `No` votes by 3 `Yes`votes with a quorum reached. (ex: 3 `No` votes and 6 `Yes` votes)
+#### Result
+
+#### Comments:
+

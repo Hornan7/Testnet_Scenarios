@@ -78,13 +78,13 @@ We will then move on to fourth test at the next Epoch when I have the results.
 |-----------------------|-----------------|------------|-----------|
 | Mike Hornan (ABLE)    | `authorized`    | `No`       | `No`      |
 | Johnny Kelly          | `authorized`    | `No`       | `No`      |
-| Mladen (RUMOR)        | `unauthorized`  | `No`       | `none`    |
+| Mladen (RUMOR)        | `unauthorized`  | `Yes`      | `none`    |
 | Smaug                 | `unauthorized`  | `none`     | `none`    |
 | Martin (ATADA)        | `unauthorized`  | `none`     | `none`    |
 | Jonah                 | `unauthorized`  | `No`       | `none`    |
 | Nicolas Lovecoach     | `authorized`    | `No`       | `No`      |
-| Adam                  | `authorized`    | `No`       | `No`      |
-| Rick McCracken (DIGI) | `authorized`    | `No`       | `none`    |
+| Adam                  | `authorized`    | `Yes`      | `none`    |
+| Rick McCracken (DIGI) | `authorized`    | `Yes`      | `Yes`     |
 ---
 
 #### Expected Results at Epoch 199

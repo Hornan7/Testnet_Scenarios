@@ -15,17 +15,17 @@ as well as the time (in Epochs) and manner (`Yes`, `No`, `Abstain`) that we will
 - Parameter changed: <ex: `pvtHardForkInitiation` from `0.01` to `0.51`>
 - The Goal: <`goal of the test`>
 
-| CC Member             | Hot Keys State  | Vote asked | Vote done | Cold-key-hash                                              |
-|-----------------------|-----------------|------------|-----------|------------------------------------------------------------|
-| Johnny Kelly          | `authorized`    | `Yes`      | `Yes`     | `8e60b56ece6188fbeca1bf9b8e27c20eedb66d248b18490e08c008f0` |
-|                       | `authorized`    | `Yes`      | `Yes`     | `48217aba81d30a6ff6fabb6aeb1ffb979918adad896b8be7c495baec` |
-|                       | `unauthorized`  | `none`     | `none`    | `865919d7c630acc68ee57fb6f0d46f8a7a34492f85594721e1834f3b` |
-| Mike Hornan (ABLE)    | `unauthorized`  | `none`     | `none`    | |
-|                       | `unauthorized`  | `none`     | `none`    | |
-|                       | `unauthorized`  | `none`     | `none`    | |
-| Nicolas Lovecoach     | `authorized`    | `none`     | `none`    | `3d0e7be94b166d2eab5363c6dd36e04cf3535d70e87d59876de0189c` |
-|                       | `unauthorized`  | `none`     | `none`    | `5aea32cbcde22c8ba268d692c372901aaaafca4a335ffdca828089ec` |
-|                       | `authorized`    | `none`     | `none`    | `d8df5290c9147dc676675ff4a7f3e86df18a3dc97914354e2dec1b5b` |
+| CC Member             | Hot Keys State  | Vote order | Vote asked | Cold-key-hash                                              |
+|-----------------------|-----------------|------------|------------|------------------------------------------------------------|
+| Johnny Kelly          | `authorized`    | `1`        | `Yes`      | `8e60b56ece6188fbeca1bf9b8e27c20eedb66d248b18490e08c008f0` |
+|                       | `authorized`    | `2`        | `Yes`      | `48217aba81d30a6ff6fabb6aeb1ffb979918adad896b8be7c495baec` |
+|                       | `unauthorized`  | `3`        | `none`     | `865919d7c630acc68ee57fb6f0d46f8a7a34492f85594721e1834f3b` |
+| Mike Hornan (ABLE)    | `unauthorized`  | `4`        | `none`     | |
+|                       | `unauthorized`  | `5`        | `none`     | |
+|                       | `unauthorized`  | `6`        | `none`     | |
+| Nicolas Lovecoach     | `authorized`    | `7`        | `none`     | `3d0e7be94b166d2eab5363c6dd36e04cf3535d70e87d59876de0189c` |
+|                       | `unauthorized`  | `8`        | `none`     | `5aea32cbcde22c8ba268d692c372901aaaafca4a335ffdca828089ec` |
+|                       | `authorized`    | `9`        | `none`     | `d8df5290c9147dc676675ff4a7f3e86df18a3dc97914354e2dec1b5b` |
 ---
 
 #### Expected Results <at Epoch No.> 

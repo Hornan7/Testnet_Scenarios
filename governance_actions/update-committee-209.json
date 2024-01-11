@@ -1,0 +1,47 @@
+{
+  "action": {
+    "contents": [
+      {
+        "govActionIx": 0,
+        "txId": "e86050ac376fc4df7c76635f648c963f44702e13beb81a5c9971a418013c74dc"
+      },
+      [],
+      {
+        "keyHash-3d0e7be94b166d2eab5363c6dd36e04cf3535d70e87d59876de0189c": 400,
+        "keyHash-48217aba81d30a6ff6fabb6aeb1ffb979918adad896b8be7c495baec": 400,
+        "keyHash-5aea32cbcde22c8ba268d692c372901aaaafca4a335ffdca828089ec": 400,
+        "keyHash-865919d7c630acc68ee57fb6f0d46f8a7a34492f85594721e1834f3b": 400,
+        "keyHash-8e60b56ece6188fbeca1bf9b8e27c20eedb66d248b18490e08c008f0": 400,
+        "keyHash-aa6be06b661821f267a0407dd60071933a86b9a635874cbe7f09c667": 400,
+        "keyHash-d5fff827bb7847f6c42ca7f50c98467b06ba2ac7a7d653a513f514a3": 400,
+        "keyHash-d8df5290c9147dc676675ff4a7f3e86df18a3dc97914354e2dec1b5b": 400,
+        "keyHash-f8e35def4164e0edefe0a967866d1486a1c27958cdf3506c086185c7": 400
+      },
+      0.3333333333333333
+    ],
+    "tag": "UpdateCommittee"
+  },
+  "actionId": {
+    "govActionIx": 0,
+    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+  },
+  "committeeVotes": {},
+  "dRepVotes": {
+    "keyHash-06554f67d6ce8ecb69e9bf38f45bba880c23f237f595ea7a3d3b333f": "VoteYes",
+    "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
+    "keyHash-7c2abbee7ac5ceb7988a6a0fbc45849135e6646bc82fb3d06c67727c": "VoteYes",
+    "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
+  },
+  "deposit": 1000000000,
+  "expiresAfter": 219,
+  "proposedIn": 209,
+  "returnAddr": {
+    "credential": {
+      "keyHash": "192a8eb77a6f405d8196dd96db13950c48300a0ff8b6f42e7901a2ef"
+    },
+    "network": "Testnet"
+  },
+  "stakePoolVotes": {
+    "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteYes"
+  }
+}

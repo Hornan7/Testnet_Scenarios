@@ -3,7 +3,10 @@
         "keyHash-3d0e7be94b166d2eab5363c6dd36e04cf3535d70e87d59876de0189c": {
             "expiration": 400,
             "hotCredsAuthStatus": {
-                "tag": "MemberNotAuthorized"
+                "contents": {
+                    "keyHash": "a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33"
+                },
+                "tag": "MemberAuthorized"
             },
             "nextEpochChange": "NoChangeExpected",
             "status": "Active"
@@ -22,7 +25,10 @@
         "keyHash-5aea32cbcde22c8ba268d692c372901aaaafca4a335ffdca828089ec": {
             "expiration": 400,
             "hotCredsAuthStatus": {
-                "tag": "MemberNotAuthorized"
+                "contents": {
+                    "keyHash": "b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4"
+                },
+                "tag": "MemberAuthorized"
             },
             "nextEpochChange": "NoChangeExpected",
             "status": "Active"
@@ -74,7 +80,10 @@
         "keyHash-d8df5290c9147dc676675ff4a7f3e86df18a3dc97914354e2dec1b5b": {
             "expiration": 400,
             "hotCredsAuthStatus": {
-                "tag": "MemberNotAuthorized"
+                "contents": {
+                    "keyHash": "942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c"
+                },
+                "tag": "MemberAuthorized"
             },
             "nextEpochChange": "NoChangeExpected",
             "status": "Active"

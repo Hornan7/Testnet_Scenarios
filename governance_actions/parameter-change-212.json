@@ -1,0 +1,43 @@
+{
+  "action": {
+    "contents": [
+      {
+        "govActionIx": 0,
+        "txId": "66ff5be390dac61910f0b26d9f9a4a2e5d02d9fa5cca486577b02aebe7c90e0f"
+      },
+      {
+        "minFeeB": 420690
+      }
+    ],
+    "tag": "ParameterChange"
+  },
+  "actionId": {
+    "govActionIx": 0,
+    "txId": "764423c1e3e60aada5536927dc4f4172057e2f446931fd2d369d05b68551b062"
+  },
+  "committeeVotes": {
+    "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+    "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+    "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+    "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+    "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+    "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+  },
+  "dRepVotes": {
+    "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
+    "keyHash-58aab755eb9013a9882ce157a0ec5af945ea1dd235d0a5232dc3770b": "VoteYes",
+    "keyHash-7c2abbee7ac5ceb7988a6a0fbc45849135e6646bc82fb3d06c67727c": "VoteYes",
+    "keyHash-9b78719e5ba6c7048cfff66e3b2c33f59f6996b963a45c62a8c59de2": "VoteYes",
+    "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
+  },
+  "deposit": 1000000000,
+  "expiresAfter": 221,
+  "proposedIn": 211,
+  "returnAddr": {
+    "credential": {
+      "keyHash": "053ce6ad64df886489d0aad935dc9533694430e08d8ae899ab6c8472"
+    },
+    "network": "Testnet"
+  },
+  "stakePoolVotes": {}
+}

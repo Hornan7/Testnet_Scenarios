@@ -28,7 +28,7 @@ we must have a small and very active set of Constitutional Committee members. Ot
 
 The most crucial aspect of these test scenarios is therefore the real power of the `Yes`, `No`, `Abstain` vote on the ratification of a governance action by the Consitutional Committee.
 
-# First Test
+# Constitutional Committee voting tests and outcomes
 <Resumé of the governance action and expected vote patern> 
 ## Governance action 1 - <Type of governance action> (Epoch <`proposedIn`>)
 - TxId: <Governance Id>

@@ -1,14 +1,34 @@
-# Constitutional Committee voting tests and outcomes
+---
+Title: A first test approach of the Constitutional Committee
+Status: In Progress
+Category: Governance
+Authors:
+    - Mike Hornan <mike.hornan@able-pool.io>
+    - Johnny Kelly <add mail or contact here>
+Discussions:
+    - <https://discord.gg/tHYrxCtdHm>
+    - <https://github.com/Hornan7/Testnet_Scenarios/issues>
+    - <https://twitter.com/Hornan7>
+    - <https://twitter.com/intertreeJK>
+    - <https://youtube.com/playlist?list=PLWYf5eQbRdbWHysHRWSN5D6IHIEoxMl3H&si=E6KDr0tkWtRygP5K>
+    - <https://youtube.com/playlist?list=PLWYf5eQbRdbWa5n21tyy8xWpTS6zjm3Mj&si=0ba7NRjx_5c2YyAT>
+    - <https://forum.cardano.org/c/governance>
+Created: 2023-12-23
+---
 
-Here are some voting scenarios that we will be testing. In order for these tests to be a success, 
-we must have the participation of all members of the Constitutional Committee, otherwise,it will not be possible for us to properly test all the scenarios below.
-In order to more easily test the results of these votes, we will choose Governance actions requiring only the votes of the CC and DReps.
-* We will use [ABLE pool's Sancho-testnet](https://discord.gg/tHYrxCtdHm) discution channel to request your vote on these specific governance actions and inform you of the results by including them in this document,
-as well as the time (in Epochs) and manner (`Yes`, `No`, `Abstain`) that we will be doing those test.
-* When all the votes of the members of the Constitutional Committee are included in the ledger we will be able to compare the results against our expectations.
-* Then, I will be able to trigger the results of the scenarios using a DReps that has the capacity to cross the DRep Threshold on its own.
-  
-# First Test
+## Abstract
+
+In order to properly understand and inform the community about the coming governance mechanisms on Cardano, we will test different voting scenarios of the Constitutional Committee. For these tests to be a success, 
+we must have a small and very active set of Constitutional Committee members. Otherwise, it will not be possible for us to gather all the possible scenarios outcomes in a short period of time before the release of these features on the mainnet.
+* We will use [ABLE pool's Sancho-testnet](https://discord.gg/tHYrxCtdHm) discussion channel as our main communication media to request votes on these specific governance actions.
+* We will then inform you of the results by including them in this document, as well as the time (in Epochs) and manner (`Yes`, `No`, `Abstain`) that we will be doing those test.
+* When all the votes of the members of the Constitutional Committee will be included in the ledger we will be able to compare the results against our expectations.
+* Then, I will be able to trigger the results of the scenarios using a DReps that has over 51% of the total voting stakes to cross the DRep Threshold on its own.
+* We already used that power to lower the Stake Pools Thresholds to 1% in order to facilitate our testings by allowing a single stake pool to cross the threshold on its own.
+
+The most crucial aspect of these test scenarios is therefore the real power of the `Yes`, `No`, `Abstain` vote on the ratification of a governance action by the Consitutional Committee.
+
+# Constitutional Committee voting tests and outcomes
 <Resumé of the governance action and expected vote patern> 
 ## Governance action 1 - <Type of governance action> (Epoch <`proposedIn`>)
 - TxId: <Governance Id>

@@ -63,9 +63,6 @@ INDEX_49=
 
 vote_index_query() {
 	case $INDEXNO in
-           50)
-                VOTE=${INDEX_50}
-                ;;
            49)
                 VOTE=${INDEX_49}
                 ;;

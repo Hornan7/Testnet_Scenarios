@@ -30,6 +30,35 @@ The most crucial aspect of these test scenarios is therefore the real power of t
 
 # Constitutional Committee voting tests and outcomes
 <Resumé of the governance action and expected vote patern> 
+## Former and new constitutional committee members
+- Description: The new committee is made up of three active members, each with three cold key pairs.
+- TxId: `db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad`
+- Index: `0`
+- Update Committee enactment: `Epoch 209`
+- Term limit: `Epoch 400`
+
+| CC Member             | Cold-key-hash                                              | Hot Keys Status                                            |    
+|-----------------------|------------------------------------------------------------|------------------------------------------------------------|
+| Johnny Kelly          | `8e60b56ece6188fbeca1bf9b8e27c20eedb66d248b18490e08c008f0` | `212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4` |
+|                       | `48217aba81d30a6ff6fabb6aeb1ffb979918adad896b8be7c495baec` | `8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257` |
+|                       | `865919d7c630acc68ee57fb6f0d46f8a7a34492f85594721e1834f3b` | `677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6` |
+| Mike Hornan (ABLE)    | `d5fff827bb7847f6c42ca7f50c98467b06ba2ac7a7d653a513f514a3` | `178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31` |
+|                       | `f8e35def4164e0edefe0a967866d1486a1c27958cdf3506c086185c7` | `53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4` |
+|                       | `aa6be06b661821f267a0407dd60071933a86b9a635874cbe7f09c667` | `d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540` |
+| Nicolas Lovecoach     | `3d0e7be94b166d2eab5363c6dd36e04cf3535d70e87d59876de0189c` | `a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33` |
+|                       | `5aea32cbcde22c8ba268d692c372901aaaafca4a335ffdca828089ec` | `b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4` |
+|                       | `d8df5290c9147dc676675ff4a7f3e86df18a3dc97914354e2dec1b5b` | `942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c` |
+---
+
+#### Expected Results <at Epoch No.> 
+<`Expected result options`>
+#### Result <at Epoch No.>
+<`Results of the votes`>
+#### Comments:
+<`Additional comments`>
+
+# Constitutional Committee voting tests and outcomes
+<Resumé of the governance action and expected vote patern> 
 ## Governance action 1 - <Type of governance action> (Epoch <`proposedIn`>)
 - TxId: <Governance Id>
 - Parameter changed: <ex: `pvtHardForkInitiation` from `0.01` to `0.51`>
@@ -54,6 +83,4 @@ The most crucial aspect of these test scenarios is therefore the real power of t
 <`Results of the votes`>
 #### Comments:
 <`Additional comments`>
-
-
 

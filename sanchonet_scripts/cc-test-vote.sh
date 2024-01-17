@@ -64,154 +64,454 @@ INDEX_49=
 vote_index_query() {
 	case $INDEXNO in
            49)
+                if [ "$INDEX49" != "" ]; then
                 VOTE=${INDEX_49}
+                else
+		echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            48)
+                if [ "$INDEX_48" != "" ]; then
                 VOTE=${INDEX_48}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            47)
+                if [ "$INDEX_47" != "" ]; then
                 VOTE=${INDEX_47}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            46)
+                if [ "$INDEX_46" != "" ]; then
                 VOTE=${INDEX_46}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            45)
+                if [ "$INDEX_45" != "" ]; then
                 VOTE=${INDEX_45}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            44)
+                if [ "$INDEX_44" != "" ]; then
                 VOTE=${INDEX_44}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            43)
+                if [ "$INDEX_43" != "" ]; then
                 VOTE=${INDEX_43}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            42)
+                if [ "$INDEX_42" != "" ]; then
                 VOTE=${INDEX_42}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            41)
+                if [ "$INDEX_41" != "" ]; then
                 VOTE=${INDEX_41}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            40)
+                if [ "$INDEX_40" != "" ]; then
                 VOTE=${INDEX_40}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            39)
+                if [ "$INDEX_39" != "" ]; then
                 VOTE=${INDEX_39}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            38)
+                if [ "$INDEX_38" != "" ]; then
                 VOTE=${INDEX_38}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            37)
+                if [ "$INDEX_37" != "" ]; then
                 VOTE=${INDEX_37}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            36)
+                if [ "$INDEX_36" != "" ]; then
                 VOTE=${INDEX_36}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            35)
+                if [ "$INDEX_35" != "" ]; then
                 VOTE=${INDEX_35}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            34)
+                if [ "$INDEX_34" != "" ]; then
                 VOTE=${INDEX_34}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            33)
+                if [ "$INDEX_33" != "" ]; then
                 VOTE=${INDEX_33}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            32)
+                if [ "$INDEX_32" != "" ]; then
                 VOTE=${INDEX_32}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            31)
+                if [ "$INDEX_31" != "" ]; then
                 VOTE=${INDEX_31}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            30)
+                if [ "$INDEX_30" != "" ]; then
                 VOTE=${INDEX_30}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            29)
+                if [ "$INDEX_29" != "" ]; then
                 VOTE=${INDEX_29}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            28)
+                if [ "$INDEX_28" != "" ]; then
                 VOTE=${INDEX_28}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            27)
+                if [ "$INDEX_27" != "" ]; then
                 VOTE=${INDEX_27}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            26)
+                if [ "$INDEX_26" != "" ]; then
                 VOTE=${INDEX_26}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            25)
+                if [ "$INDEX_25" != "" ]; then
                 VOTE=${INDEX_25}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            24)
+                if [ "$INDEX_24" != "" ]; then
                 VOTE=${INDEX_24}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            23)
+                if [ "$INDEX_23" != "" ]; then
                 VOTE=${INDEX_23}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            22)
+                if [ "$INDEX_22" != "" ]; then
                 VOTE=${INDEX_22}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            21)
+                if [ "$INDEX_21" != "" ]; then
                 VOTE=${INDEX_21}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            20)
+                if [ "$INDEX_20" != "" ]; then
                 VOTE=${INDEX_20}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            19)
+                if [ "$INDEX_19" != "" ]; then
                 VOTE=${INDEX_19}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            18)
+                if [ "$INDEX_18" != "" ]; then
                 VOTE=${INDEX_18}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            17)
+                if [ "$INDEX_17" != "" ]; then
                 VOTE=${INDEX_17}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            16)
+                if [ "$INDEX_16" != "" ]; then
                 VOTE=${INDEX_16}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            15)
+                if [ "$INDEX_15" != "" ]; then
                 VOTE=${INDEX_15}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            14)
+                if [ "$INDEX_14" != "" ]; then
                 VOTE=${INDEX_14}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            13)
+                if [ "$INDEX_13" != "" ]; then
                 VOTE=${INDEX_13}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            12)
+                if [ "$INDEX_12" != "" ]; then
                 VOTE=${INDEX_12}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            11)
+                if [ "$INDEX_11" != "" ]; then
                 VOTE=${INDEX_11}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
            10)
+                if [ "$INDEX_10" != "" ]; then
                 VOTE=${INDEX_10}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             9)
+                if [ "$INDEX_9" != "" ]; then
                 VOTE=${INDEX_9}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             8)
+                if [ "$INDEX_8" != "" ]; then
                 VOTE=${INDEX_8}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             7)
+                if [ "$INDEX_7" != "" ]; then
                 VOTE=${INDEX_7}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             6)
+                if [ "$INDEX_6" != "" ]; then
                 VOTE=${INDEX_6}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             5)
+                if [ "$INDEX_5" != "" ]; then
                 VOTE=${INDEX_5}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             4)
+                if [ "$INDEX_4" != "" ]; then
                 VOTE=${INDEX_4}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             3)
+                if [ "$INDEX_3" != "" ]; then
                 VOTE=${INDEX_3}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             2)
+                if [ "$INDEX_2" != "" ]; then
                 VOTE=${INDEX_2}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             1)
+                if [ "$INDEX_1" != "" ]; then
                 VOTE=${INDEX_1}
+                else
+                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
             0)
+                if [ "$INDEX_0" != "" ]; then
                 VOTE=${INDEX_0}
+                else
+                echo "No vote variables recorded for last Index ${INDEXNO}."
+                INDEXNO=$((INDEXNO-1))
+                vote_index_query
+                fi
                 ;;
 	esac
 }
@@ -268,6 +568,7 @@ building_action_vote() {
 }
 
 building_action_vote           
+echo ""
 echo "------------------------------------------"
 echo "           Building Transaction"
 echo "------------------------------------------"

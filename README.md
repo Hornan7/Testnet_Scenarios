@@ -4,6 +4,7 @@ Status: In Progress
 Category: Governance
 Authors:
     - Mike Hornan <mike.hornan@able-pool.io>
+    - Johnny Kelly <https://github.com/intertreeJK>
 Discussions:
     - <https://discord.gg/tHYrxCtdHm>
     - <https://github.com/Hornan7/Testnet_Scenarios/issues>

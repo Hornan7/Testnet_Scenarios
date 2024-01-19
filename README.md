@@ -4,7 +4,6 @@ Status: In Progress
 Category: Governance
 Authors:
     - Mike Hornan <mike.hornan@able-pool.io>
-    - Johnny Kelly <add mail or contact here>
 Discussions:
     - <https://discord.gg/tHYrxCtdHm>
     - <https://github.com/Hornan7/Testnet_Scenarios/issues>
@@ -29,7 +28,7 @@ we must have a small and very active set of Constitutional Committee members. Ot
 The most crucial aspect of these test scenarios is therefore the real power of the `Yes`, `No`, `Abstain` vote on the ratification of a governance action by the Consitutional Committee.
 
 # Summary of the SanchoNet "Coup d'État"
-We firmly wanted to be able to test all the voting possibilities as efficiently as possible. So we submitted a no-confidence governance action on the former Committee using our Drep of 2.7 millions voting power and the vote of the ABLE stake pool to cross the two necessary threshold in order to have it ratified. This subsequently allowed us to self-elect Mike Hornan, Johnny Kelly and Nicolas Cerny as a new constitutional committee.
+We firmly wanted to be able to test all the voting possibilities as efficiently as possible. So we submitted a no-confidence governance action on the former Committee using our Drep of 2.7 millions voting power and the vote of the ABLE stake pool to cross the two necessary threshold in order to have it ratified. This subsequently allowed us to self-elect [Mike Hornan](https://github.com/Hornan7), [Johnny Kelly](https://github.com/intertreeJK) and [Nicolas Cerny](https://github.com/thenic95) as a new constitutional committee.
 
 > **Note**
 > The IOG developers who are currently working on governance mechanisms were aware of the situation and participated in the workshops and conversations about this takeover.
@@ -88,7 +87,26 @@ Each key hash will be assigned a key identifier in order to vote according to th
 
 
 ## First test
-The Goal of the test is to -------------------
+The Goal of the test is to <`Add Goal`>
+### Expected Results
+<`Expected result options`>
+### Governance Actions
+- Governance action type: `treasury withdrawal`
+- TxId: `04577af6d8751e0a449c0b3088f036fb8a8f0a7fb030674c22bc73e301dec99a`
+- Highest index number: `0`
+
+| Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
+|------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| INDEX_0                            | ``        | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
+---
+- Governance action type: `treasury withdrawal`
+- TxId: `239e5eab9d7b4a20341ada7adb18ccdcbcdc44b7ed29ce1c9b8783e2a4931ff8`
+- Highest index number: `0`
+
+| Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
+|------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| INDEX_0                            | ``        | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
+---
 - Governance action type: `treasury withdrawal`
 - TxId: `f902a03b03fb2bcd7ed26d10df846f190ba7ffc77c17f8398bef9cf412c25db7`
 - Highest index number: `49`
@@ -147,10 +165,8 @@ The Goal of the test is to -------------------
 | INDEX_49                           | ``        | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 
-#### Expected Results <at Epoch No.> 
-<`Expected result options`>
-#### Result <at Epoch No.>
+### Result <at Epoch No.>
 <`Results of the votes`>
-#### Comments:
+### Comments:
 <`Additional comments`>
 

@@ -188,7 +188,7 @@ Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% vot
 | INDEX_14 (Test 17)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | ``        | ``        | ``        | ``        |
 | INDEX_15 (Test 18)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | ``        | ``        | ``        | ``        |
 | INDEX_16 (Test 19)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | ``        | ``        | ``        | ``        |
-| INDEX_17 (Test 20)                 | 'Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | ``        | ``        | ``        | ``        |
+| INDEX_17 (Test 20)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | ``        | ``        | ``        | ``        |
 | INDEX_18 (Test 21)                 | `No`      | `No`       | `No`      | `No`      | `No`      | `No`      | ``        | ``        | ``        |
 | INDEX_19 (Test 22)                 | `yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | ``        | ``        | ``        |
 | INDEX_20 (Test 23)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | ``        | ``        | ``        |

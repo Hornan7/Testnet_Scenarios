@@ -114,7 +114,7 @@ Test 16    | 1 Yes, 4 No   | No Ratifcation due to Quorum being met and fewer th
 Test 17    | 2 Yes, 3 No   | No Ratifcation due to Quorum being met and fewer than 51% voting Yes
 Test 18    | 3 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
 Test 19    | 4 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 20    | 5 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and morethan 51% voting Yes
+Test 20    | 5 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
 Test 21    | 0 Yes, 6 No   | No Ratifcation due to Quorum being met and fewer than 51% voting Yes
 Test 22    | 1 Yes, 5 No   | No Ratifcation due to Quorum being met and fewer than 51% voting Yes
 Test 23    | 2 Yes, 4 No   | No Ratifcation due to Quorum being met and fewer than 51% voting Yes

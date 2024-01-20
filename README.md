@@ -93,60 +93,62 @@ The Goal of the test is to determine all final Proposal Ratification outcomes of
 
 **Suite 1:**
 
-| Test no. | Expected result   |
-|----------|-------------------|
-Test 1     |  No Ratifcation due to Quorum not being met
-Test 2     |  No Ratifcation due to Quorum not being met 
-Test 3     |  No Ratifcation due to Quorum not being met 
-Test 4     |  No Ratifcation due to Quorum not being met 
-Test 5     | No Ratifcation due to Quorum not being met 
-Test 6     | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 7     | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 8     | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 9     | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 10    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 11    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 12    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 13    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 14    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 15    | No Ratifcation due to Quorum being me and less than 51% voting Yes
-Test 16    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 17    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 18    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 19    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 20    | Confirmed Ratifcation due to Quorum being met and morethan 51% voting Yes
-Test 21    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 22    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 23    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 24    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 25    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 26    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 27    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 28    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 29    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 30    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 31    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 32    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 33    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 34    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 35    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 36    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 37    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 38    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 39    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 40    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 41    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 42    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 43    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 44    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 45    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 47    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 48    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 49    | No Ratifcation due to Quorum being met and less than 51% voting Yes
-Test 50    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 52    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 53    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
-Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+| Test no. | Vote patter   | Expected result   |
+|----------|---------------|-------------------|
+Test 1     | 0 Yes, 1 No   | No Ratifcation due to Quorum not being met
+Test 2     | 1 Yes, 0 No   | No Ratifcation due to Quorum not being met 
+Test 3     | 0 Yes, 2 No   | No Ratifcation due to Quorum not being met 
+Test 4     | 1 Yes, 1 No   | No Ratifcation due to Quorum not being met 
+Test 5     | 2 Yes, 0 No   | No Ratifcation due to Quorum not being met 
+Test 6     | 0 Yes, 3 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 7     | 1 Yes, 2 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 8     | 2 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 9     | 3 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 10    | 0 Yes, 4 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 11    | 1 Yes, 3 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 12    | 2 Yes, 2 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 13    | 3 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 14    | 4 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 15    | 0 Yes, 5 No   | No Ratifcation due to Quorum being me and less than 51% voting Yes
+Test 16    | 1 Yes, 4 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 17    | 2 Yes, 3 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 18    | 3 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 19    | 4 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 20    | 5 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and morethan 51% voting Yes
+Test 21    | 0 Yes, 6 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 22    | 1 Yes, 5 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 23    | 2 Yes, 4 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 24    | 3 Yes, 3 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 25    | 4 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 26    | 5 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 27    | 6 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 28    | 0 Yes, 7 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 29    | 1 Yes, 6 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 30    | 2 Yes, 5 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 31    | 3 Yes, 4 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 32    | 4 Yes, 3 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 33    | 5 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 34    | 6 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 35    | 7 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 36    | 0 Yes, 8 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 37    | 1 Yes, 7 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 38    | 2 Yes, 6 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 39    | 3 Yes, 5 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 40    | 4 Yes, 4 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 41    | 5 Yes, 3 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 42    | 6 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 43    | 7 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 44    | 8 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 45    | 0 Yes, 9 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 46    | 1 Yes, 8 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 47    | 2 Yes, 7 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 48    | 3 Yes, 6 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 49    | 4 Yes, 5 No   | No Ratifcation due to Quorum being met and less than 51% voting Yes
+Test 50    | 5 Yes, 4 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 51    | 6 Yes, 3 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 52    | 7 Yes, 2 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 53    | 8 Yes, 1 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
+Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and more than 51% voting Yes
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`

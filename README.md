@@ -223,14 +223,15 @@ Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% vot
 | INDEX_48 (Test 52)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      |
 | INDEX_49 (Test 53)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      |
 ---
+- Governance action type: `treasury withdrawal`
+- TxId: `<TBD>`
+- Highest index number: `0`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
 |------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | INDEX_0 (Test 54)                  | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     |
 ---
-- Governance action type: `treasury withdrawal`
-- TxId: `<TBD>`
-- Highest index number: `0`
+
 
 ### Result <at Epoch No.>
 <`Results of the votes`>

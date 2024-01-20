@@ -93,7 +93,7 @@ The Goal of the test is to determine all final Proposal Ratification outcomes of
 
 **Suite 1:**
 
-| Test no. | Vote patter   | Expected result   |
+| Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
 Test 1     | 0 Yes, 1 No   | No Ratifcation due to Quorum not being met
 Test 2     | 1 Yes, 0 No   | No Ratifcation due to Quorum not being met 

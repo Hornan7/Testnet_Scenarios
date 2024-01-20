@@ -200,28 +200,27 @@ Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% vot
 | INDEX_26 (Test 29)                 | `Yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | ``        | ``        |
 | INDEX_27 (Test 30)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        | ``        |
 | INDEX_28 (Test 31)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | `No`      | `No`      | ``        | ``        |
-| INDEX_28 (Test 32)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | ``        | ``        |
-| INDEX_29 (Test 33)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | ``        | ``        |
-| INDEX_30 (Test 34)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | ``        | ``        |
-| INDEX_31 (Test 35)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | ``        | ``        |
-| INDEX_32 (Test 36)                 | `No`      | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
-| INDEX_33 (Test 37)                 | `Yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
-| INDEX_34 (Test 38)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
-| INDEX_35 (Test 39)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
-| INDEX_36 (Test 40)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      | ``        |
-| INDEX_37 (Test 41)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | ``        |
-| INDEX_38 (Test 42)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | ``        |
-| INDEX_39 (Test 43)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | ``        |
-| INDEX_40 (Test 44)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | ``        |
-| INDEX_41 (Test 45)                 | `No`      | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
-| INDEX_42 (Test 46)                 | `Yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
-| INDEX_43 (Test 47)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
-| INDEX_44 (Test 48)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
-| INDEX_45 (Test 49)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      |
-| INDEX_46 (Test 50)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      |
-| INDEX_47 (Test 51)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      |
-| INDEX_48 (Test 52)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      |
-| INDEX_49 (Test 53)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      |
+| INDEX_29 (Test 32)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | ``        | ``        |
+| INDEX_30 (Test 33)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | ``        | ``        |
+| INDEX_31 (Test 34)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | ``        | ``        |
+| INDEX_32 (Test 35)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | ``        | ``        |
+| INDEX_33 (Test 36)                 | `No`      | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
+| INDEX_34 (Test 37)                 | `Yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
+| INDEX_35 (Test 38)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
+| INDEX_36 (Test 39)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      | ``        |
+| INDEX_37 (Test 40)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      | ``        |
+| INDEX_38 (Test 41)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | ``        |
+| INDEX_39 (Test 42)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | ``        |
+| INDEX_40 (Test 43)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | ``        |
+| INDEX_41 (Test 44)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | ``        |
+| INDEX_42 (Test 45)                 | `No`      | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
+| INDEX_43 (Test 46)                 | `Yes`     | `No`       | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
+| INDEX_44 (Test 47)                 | `Yes`     | `Yes`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
+| INDEX_45 (Test 48)                 | `Yes`     | `Yes`      | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      | `No`      |
+| INDEX_46 (Test 49)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      | `No`      |
+| INDEX_47 (Test 50)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      | `No`      |
+| INDEX_48 (Test 51)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      | `No`      |
+| INDEX_49 (Test 52)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      |
 ---
 - Governance action type: `treasury withdrawal`
 - TxId: `<TBD>`
@@ -229,7 +228,8 @@ Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% vot
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
 |------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| INDEX_0 (Test 54)                  | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     |
+| INDEX_9 (Test 53)                  | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      |
+| INDEX_1 (Test 54)                  | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     |
 ---
 
 

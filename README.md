@@ -237,8 +237,8 @@ Test 54    | Confirmed Ratifcation due to Quorum being met and more than 51% vot
 
 **Suite 1:**
 
-| Test no. | Final result   |
-|----------|-------------------|
+| Test no. | Final result   | Matched expected?   |
+|----------|----------------|---------------------|
 Test 1     | 
 Test 2     |  
 Test 3     |   

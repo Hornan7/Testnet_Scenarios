@@ -1,0 +1,38 @@
+{
+  "action": {
+    "contents": [
+      [
+        {
+          "credential": {
+            "keyHash": "248f556b733c3ef24899ae0609d3796198d5470192304c4894dd85cb"
+          },
+          "network": "Testnet"
+        },
+        64000000000000
+      ]
+    ],
+    "tag": "TreasuryWithdrawals"
+  },
+  "actionId": {
+    "govActionIx": 0,
+    "txId": "7277b7cd4df7674ecc437c0c9fabb33bdbf9c60a13898a3b31729f27c450032a"
+  },
+  "committeeVotes": {
+    "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+    "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+    "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+  },
+  "dRepVotes": {
+    "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
+  },
+  "deposit": 1000000000,
+  "expiresAfter": 228,
+  "proposedIn": 218,
+  "returnAddr": {
+    "credential": {
+      "keyHash": "248f556b733c3ef24899ae0609d3796198d5470192304c4894dd85cb"
+    },
+    "network": "Testnet"
+  },
+  "stakePoolVotes": {}
+}

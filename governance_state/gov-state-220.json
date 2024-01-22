@@ -630,7 +630,7 @@
             "maxTxSize": 16384,
             "maxValSize": 5000,
             "minFeeA": 44,
-            "minFeeB": 420690,
+            "minFeeB": 155381,
             "minPoolCost": 340000000,
             "nOpt": 500,
             "poolDeposit": 500000000,
@@ -659,7 +659,7 @@
             "pgaHardFork": null,
             "pgaPParamUpdate": {
                 "govActionIx": 0,
-                "txId": "764423c1e3e60aada5536927dc4f4172057e2f446931fd2d369d05b68551b062"
+                "txId": "a074d67232a12677d060fa679a83dc18e001375f89b460d730eb50f90ed0f70d"
             }
         },
         "prevPParams": {
@@ -2585,7 +2585,7 @@
         "ratificationDelayed": false,
         "removedGovActions": [
             {
-                "govActionIx": 36,
+                "govActionIx": 37,
                 "txId": "2a4d225eadaac701302899fcd8b4d06c010dbafdc9859fa0b706fea2e1436f6f"
             }
         ]
@@ -35521,30 +35521,6 @@
                 "tag": "NoConfidence"
             },
             "actionId": {
-                "govActionIx": 36,
-                "txId": "2a4d225eadaac701302899fcd8b4d06c010dbafdc9859fa0b706fea2e1436f6f"
-            },
-            "committeeVotes": {},
-            "dRepVotes": {
-                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "Abstain"
-            },
-            "deposit": 1000000000,
-            "expiresAfter": 181,
-            "proposedIn": 171,
-            "returnAddr": {
-                "credential": {
-                    "keyHash": "b7137b5e2a626ebed51ef0261692b21cfab50bf053e989f24d65f48f"
-                },
-                "network": "Testnet"
-            },
-            "stakePoolVotes": {}
-        },
-        {
-            "action": {
-                "contents": null,
-                "tag": "NoConfidence"
-            },
-            "actionId": {
                 "govActionIx": 37,
                 "txId": "2a4d225eadaac701302899fcd8b4d06c010dbafdc9859fa0b706fea2e1436f6f"
             },
@@ -44088,7 +44064,7 @@
             "committeeVotes": {
                 "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
-                "keyHash-e43dcedb528c6bf02729b47f5ee3f012ff4df2969ff58b6f76e1e415": "VoteYes"
+                "keyHash-e43dcedb528c6bf02729b47f5ee3f012ff4df2969ff58b6f76e1e415": "Abstain"
             },
             "dRepVotes": {
                 "keyHash-06554f67d6ce8ecb69e9bf38f45bba880c23f237f595ea7a3d3b333f": "VoteNo",
@@ -46508,6 +46484,50 @@
             "returnAddr": {
                 "credential": {
                     "keyHash": "192a8eb77a6f405d8196dd96db13950c48300a0ff8b6f42e7901a2ef"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "tag": "InfoAction"
+            },
+            "actionId": {
+                "govActionIx": 0,
+                "txId": "cc6bc0963a68bd6e3f6b1a770e2d196a497b33e58ee5687fd8f574087164400a"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 229,
+            "proposedIn": 219,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "tag": "InfoAction"
+            },
+            "actionId": {
+                "govActionIx": 0,
+                "txId": "46e91efe1091f776318351361bf28ef7d7726b5815f5e6858f05e72f6d942d56"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-d6d84c6a5b05cb8f89d24e9d46926975fa1dc08a58b3c26e96c06df7": "VoteYes"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 229,
+            "proposedIn": 219,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
                 },
                 "network": "Testnet"
             },

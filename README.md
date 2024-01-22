@@ -333,7 +333,7 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
 - TxId: `<TBD>`
-- Highest index number: `x`
+- Highest index number: `15`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
 |------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|

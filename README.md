@@ -307,22 +307,22 @@ The Goal of the test is to determine all final Proposal Ratification outcomes of
 
 | Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
-Test 1     | 1 Yes, 1 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met
-Test 2     | 1 Yes, 2 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 3     | 1 Yes, 3 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 4     | 1 Yes, 4 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 5     | 1 Yes, 5 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 6     | 1 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 7     | 1 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 8     | 1 Yes, 8 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 9     | 2 Yes, 1 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 10    | 2 Yes, 2 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
-Test 11    | 2 Yes, 3 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 12    | 2 Yes, 4 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 13    | 2 Yes, 5 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 14    | 2 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 15    | 2 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
-Test 16    | 3 Yes, 1 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 1     | 1 Yes, 1 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met
+Test 2     | 1 Yes, 2 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met
+Test 3     | 1 Yes, 3 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met
+Test 4     | 1 Yes, 4 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met
+Test 5     | 1 Yes, 5 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met 
+Test 6     | 1 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 7     | 1 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 8     | 1 Yes, 8 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 9     | 2 Yes, 1 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met 
+Test 10    | 2 Yes, 2 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met 
+Test 11    | 2 Yes, 3 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 12    | 2 Yes, 4 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 13    | 2 Yes, 5 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 14    | 2 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 15    | 2 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
+Test 16    | 3 Yes, 1 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 
 NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Member Quorum requirements of 3 of 9 even with **any** variation of Abstain Positions accompanying. Same applies for any amount of Yes Votes by CC Members above 3 total.
 

@@ -299,5 +299,84 @@ Test 54    |
 <`Additional comments`>
 
 
+## Second test suite
+The Goal of the test is to determine all final Proposal Ratification outcomes of various **important** combinations of Yes Votes and Abstain Positions from Constitutional Committee Members.
+### Expected Results
+
+**Suite 2:**
+
+| Test no. | Vote pattern  | Expected result   |
+|----------|---------------|-------------------|
+Test 1     | 1 Yes, 1 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met
+Test 2     | 1 Yes, 2 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 3     | 1 Yes, 3 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 4     | 1 Yes, 4 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 5     | 1 Yes, 5 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 6     | 1 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 7     | 1 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 8     | 1 Yes, 8 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 9     | 2 Yes, 1 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 10    | 2 Yes, 2 Abstain   | No Ratifcation due to revised Quorum due to explicit Abstain Positions not being met 
+Test 11    | 2 Yes, 3 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 12    | 2 Yes, 4 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 13    | 2 Yes, 5 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 14    | 2 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 15    | 2 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+Test 16    | 3 Yes, 1 Abstain   | Confirmed Ratifcation due to revised Quorum due to explicit Abstain Positions being met and more than 51% voting Yes
+
+NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Member Quorum requirements of 3 of 9 even with **any** variation of Abstain Positions accompanying. Same applies for any amount of Yes Votes by CC Members above 3 total.
+
+### Governance Actions
+- Governance action type: `treasury withdrawal`
+- TxId: `<TBD>`
+- Highest index number: `x`
+
+| Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
+|------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| INDEX_0 (Test 1)                   | `Yes`     | `Abstain`  | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
+| INDEX_1 (Test 2)                   | `Yes`     | `Abstain`  | `Abstain` | ``        | ``        | ``        | ``        | ``        | ``        |
+| INDEX_2 (Test 3)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | ``        | ``        | ``        | ``        | ``        |
+| INDEX_3 (Test 4)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | `Abstain` | ``        | ``        | ``        | ``        |
+| INDEX_4 (Test 5)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        | ``        | ``        |
+| INDEX_5 (Test 6)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        | ``        |
+| INDEX_6 (Test 7)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        |
+| INDEX_7 (Test 8)                   | `Yes`     | `Abstain`  | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` |
+| INDEX_8 (Test 9)                   | `Yes`     | `Yes`      | `Abstain` | ``        | ``        | ``        | ``        | ``        | ``        |
+| INDEX_9 (Test 10)                  | `Yes`     | `Yes`      | `Abstain` | `Abstain` | ``        | ``        | ``        | ``        | ``        |
+| INDEX_10 (Test 11)                 | `Yes`     | `Yes`      | `Abstain` | `Abstain` | `Abstain` | ``        | ``        | ``        | ``        |
+| INDEX_11 (Test 12)                 | `Yes`     | `Yes`      | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        | ``        | ``        |
+| INDEX_12 (Test 13)                 | `Yes`     | `Yes`      | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        | ``        |
+| INDEX_13 (Test 14)                 | `yes`     | `Yes`      | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | ``        |
+| INDEX_14 (Test 15)                 | `Yes`     | `Yes`      | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` | `Abstain` |
+| INDEX_15 (Test 16)                 | `Yes`     | `Yes`      | `Yes`     | `Abstain` | ``        | ``        | ``        | ``        | ``        |
+---
+
+### Result <at Epoch No.>
+
+**Suite 2:**
+
+| Test no. | Final result   | Matched expected?   |
+|----------|----------------|---------------------|
+Test 1     | 
+Test 2     |  
+Test 3     |   
+Test 4     | 
+Test 5     |  
+Test 6     | 
+Test 7     | 
+Test 8     | 
+Test 9     | 
+Test 10    | 
+Test 11    | 
+Test 12    | 
+Test 13    | 
+Test 14    | 
+Test 15    | 
+Test 16    | 
+
+### Comments:
+<`Additional comments`>
+
+
 
 

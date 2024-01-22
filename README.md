@@ -328,7 +328,7 @@ Test 14    | 2 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum re
 Test 15    | 2 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 Test 16    | 3 Yes, 1 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 
-NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Member Quorum requirements of 3 of 9 even with **any** variation of Abstain Positions accompanying. Same applies for any amount of Yes Votes by CC Members **above** 3 total.
+NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Member Quorum requirements of 3 of 9 even with **any** variation of Abstain Positions accompanying. Same applies for any amount of Votes by CC Members **above** 3 total.
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`

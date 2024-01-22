@@ -320,7 +320,7 @@ Test 6     | 1 Yes, 6 Abstain   | Confirmed Ratifcation due to revised Quorum re
 Test 7     | 1 Yes, 7 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 Test 8     | 1 Yes, 8 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 Test 9     | 2 Yes, 1 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met 
-Test 10    | 2 Yes, 2 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes 
+Test 10    | 2 Yes, 2 Abstain   | No Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, not being met 
 Test 11    | 2 Yes, 3 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 Test 12    | 2 Yes, 4 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes
 Test 13    | 2 Yes, 5 Abstain   | Confirmed Ratifcation due to revised Quorum requirement, caused by explicit Abstain Positions, being met and more than 51% voting Yes

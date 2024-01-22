@@ -300,7 +300,11 @@ Test 54    |
 
 
 ## Second test suite
-The Goal of the test is to determine all final Proposal Ratification outcomes of various **important** combinations of Yes Votes and Abstain Positions from Constitutional Committee Members. The working theory going into this test is that each Abstain Position explicitly presented by a CC Member On-Chain should have the knock on effect of lowering the Quroum requirement for active Yes Votes, as Quorum is expressed as a % of actually active participants in the Vote. This premise may be disproven as a result of these tests. If it is, this will help to provide better understanding of **how** the Quorum Parameter for the Consitutional Committe actually works in practice On-Chain. 
+The Goal of the test is to determine all final Proposal Ratification outcomes of various **important** combinations of Yes Votes and Abstain Positions from Constitutional Committee Members. 
+
+The working theory going into this test is that each Abstain Position explicitly presented by a CC Member On-Chain should have the knock on effect of lowering the Quroum requirement for active Yes Votes, as Quorum is expressed as a % of actually active participants in the Vote. 
+
+This premise may be disproven as a result of these tests. If it is, this will help to provide better understanding of **how** the Quorum Parameter for the Consitutional Committe actually works in practice On-Chain. 
 ### Expected Results
 
 **Suite 2:**

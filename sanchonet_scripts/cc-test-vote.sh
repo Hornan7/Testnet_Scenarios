@@ -637,7 +637,7 @@ building_action_vote() {
 		#query the vote from index
 		vote_index_query
                     cardano-cli conway governance vote create \
-                    --${VOTE} \ 
+                    --${VOTE} \
                     --governance-action-tx-id "${GOVID}" \
                     --governance-action-index "${INDEXNO}" \
                     --cc-hot-verification-key-file cc-hot.vkey \

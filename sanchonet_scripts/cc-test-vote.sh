@@ -62,7 +62,6 @@ INDEX_49=
 ################################################################################################################
 unset INDEXNO
 unset VOTE
-unset GOVID
 vote_index_query() {
 	case $INDEXNO in
            49)
@@ -711,4 +710,3 @@ sleep 0.5
 echo "Vote complete on ${GOVID}"
 unset INDEXNO
 unset VOTE
-unset GOVID

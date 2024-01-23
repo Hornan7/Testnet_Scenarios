@@ -60,15 +60,17 @@ INDEX_49=
 # Do not modify what is below if you run this script from your keys directory.
 # Please use the sancho.network naming convention for your keys.
 ################################################################################################################
-
+unset INDEXNO
+unset VOTE
 vote_index_query() {
 	case $INDEXNO in
            49)
-                if [ "$INDEX49" != "" ]; then
+                if [ "$INDEX_49" != "" ]; then
                 VOTE=${INDEX_49}
                 else
 		echo ""
-		echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -78,7 +80,8 @@ vote_index_query() {
                 VOTE=${INDEX_48}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -88,7 +91,8 @@ vote_index_query() {
                 VOTE=${INDEX_47}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -98,7 +102,8 @@ vote_index_query() {
                 VOTE=${INDEX_46}
                 else
                 echo ""
-		echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -108,7 +113,8 @@ vote_index_query() {
                 VOTE=${INDEX_45}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -118,7 +124,8 @@ vote_index_query() {
                 VOTE=${INDEX_44}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -128,7 +135,8 @@ vote_index_query() {
                 VOTE=${INDEX_43}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -138,7 +146,8 @@ vote_index_query() {
                 VOTE=${INDEX_42}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -148,7 +157,8 @@ vote_index_query() {
                 VOTE=${INDEX_41}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -158,7 +168,8 @@ vote_index_query() {
                 VOTE=${INDEX_40}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -168,7 +179,8 @@ vote_index_query() {
                 VOTE=${INDEX_39}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -178,7 +190,8 @@ vote_index_query() {
                 VOTE=${INDEX_38}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -188,7 +201,8 @@ vote_index_query() {
                 VOTE=${INDEX_37}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -198,7 +212,8 @@ vote_index_query() {
                 VOTE=${INDEX_36}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -208,7 +223,8 @@ vote_index_query() {
                 VOTE=${INDEX_35}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -218,7 +234,8 @@ vote_index_query() {
                 VOTE=${INDEX_34}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -228,7 +245,8 @@ vote_index_query() {
                 VOTE=${INDEX_33}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -238,7 +256,8 @@ vote_index_query() {
                 VOTE=${INDEX_32}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -248,7 +267,8 @@ vote_index_query() {
                 VOTE=${INDEX_31}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -258,7 +278,8 @@ vote_index_query() {
                 VOTE=${INDEX_30}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -268,7 +289,8 @@ vote_index_query() {
                 VOTE=${INDEX_29}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -278,7 +300,8 @@ vote_index_query() {
                 VOTE=${INDEX_28}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -288,7 +311,8 @@ vote_index_query() {
                 VOTE=${INDEX_27}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -298,7 +322,8 @@ vote_index_query() {
                 VOTE=${INDEX_26}
 		else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -308,7 +333,8 @@ vote_index_query() {
                 VOTE=${INDEX_25}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -318,7 +344,8 @@ vote_index_query() {
                 VOTE=${INDEX_24}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -328,7 +355,8 @@ vote_index_query() {
                 VOTE=${INDEX_23}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -338,7 +366,8 @@ vote_index_query() {
                 VOTE=${INDEX_22}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -348,7 +377,8 @@ vote_index_query() {
                 VOTE=${INDEX_21}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -358,7 +388,8 @@ vote_index_query() {
                 VOTE=${INDEX_20}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -368,7 +399,8 @@ vote_index_query() {
                 VOTE=${INDEX_19}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -378,7 +410,8 @@ vote_index_query() {
                 VOTE=${INDEX_18}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -388,7 +421,8 @@ vote_index_query() {
                 VOTE=${INDEX_17}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -398,7 +432,8 @@ vote_index_query() {
                 VOTE=${INDEX_16}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -408,7 +443,8 @@ vote_index_query() {
                 VOTE=${INDEX_15}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -418,7 +454,8 @@ vote_index_query() {
                 VOTE=${INDEX_14}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -428,7 +465,8 @@ vote_index_query() {
                 VOTE=${INDEX_13}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -438,7 +476,8 @@ vote_index_query() {
                 VOTE=${INDEX_12}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -448,7 +487,8 @@ vote_index_query() {
                 VOTE=${INDEX_11}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -458,7 +498,8 @@ vote_index_query() {
                 VOTE=${INDEX_10}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -468,7 +509,8 @@ vote_index_query() {
                 VOTE=${INDEX_9}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -478,7 +520,8 @@ vote_index_query() {
                 VOTE=${INDEX_8}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -488,7 +531,8 @@ vote_index_query() {
                 VOTE=${INDEX_7}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -498,7 +542,8 @@ vote_index_query() {
                 VOTE=${INDEX_6}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -508,7 +553,8 @@ vote_index_query() {
                 VOTE=${INDEX_5}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -518,7 +564,8 @@ vote_index_query() {
                 VOTE=${INDEX_4}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -528,7 +575,8 @@ vote_index_query() {
                 VOTE=${INDEX_3}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -538,7 +586,8 @@ vote_index_query() {
                 VOTE=${INDEX_2}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -548,7 +597,8 @@ vote_index_query() {
                 VOTE=${INDEX_1}
                 else
 		echo ""
-                echo "No vote variables recorded for Index ${INDEXNO}, skiping to the next one."
+                echo "vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
@@ -558,9 +608,8 @@ vote_index_query() {
                 VOTE=${INDEX_0}
                 else
 		echo ""
-                echo "No vote variables recorded for last Index ${INDEXNO}."
-                INDEXNO=$((INDEXNO-1))
-                vote_index_query
+                echo "Vote skiped on Index ${INDEXNO}."
+		sleep 0.5
                 fi
                 ;;
 	esac
@@ -587,7 +636,6 @@ building_action_vote() {
 		
 		#query the vote from index
 		vote_index_query
-
                     cardano-cli conway governance vote create \
                     --${VOTE} \
                     --governance-action-tx-id "${GOVID}" \
@@ -595,28 +643,31 @@ building_action_vote() {
                     --cc-hot-verification-key-file cc-hot.vkey \
                     --out-file action-votes/action${INDEXNO}.vote
                 echo " --vote-file action-votes/action${INDEXNO}.vote" >> action-votes/txvar.txt
-                echo -ne "\rPreparing vote of index number ${INDEXNO} "
-                sleep 0.2
+                echo   "Preparing vote of index number ${INDEXNO} with vote ${VOTE}"
+                sleep 0.5
                 INDEXNO=$((INDEXNO-1))
             else
                 
 		#query the vote from index
 		vote_index_query
-
+		if [ "$INDEX_0" != "" ]; then
 		    cardano-cli conway governance vote create \
                     --${VOTE} \
                     --governance-action-tx-id "${GOVID}" \
                     --governance-action-index "${INDEXNO}" \
                     --cc-hot-verification-key-file cc-hot.vkey \
                     --out-file action-votes/action${INDEXNO}.vote
-                    echo -ne "\rPreparing vote of index number ${INDEXNO} "
+                    echo "Preparing vote of index number ${INDEXNO} with the vote ${VOTE}"
                     echo " --vote-file action-votes/action${INDEXNO}.vote" >> action-votes/txvar.txt
                     sleep 1
-                    break  
+                    break                  
+                else
+		    break 
+
+        	fi  
             fi
     done
 }
-
 building_action_vote           
 echo ""
 echo "------------------------------------------"
@@ -657,3 +708,5 @@ sleep 0.5
         --tx-file vote-tx.signed
 
 echo "Vote complete on ${GOVID}"
+unset INDEXNO
+unset VOTE

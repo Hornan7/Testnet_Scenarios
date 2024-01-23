@@ -614,7 +614,9 @@ building_action_vote() {
             fi
     done
 }
-
+unset INDEXNO
+unset VOTE
+unset GOVID
 building_action_vote           
 echo ""
 echo "------------------------------------------"
@@ -655,3 +657,6 @@ sleep 0.5
         --tx-file vote-tx.signed
 
 echo "Vote complete on ${GOVID}"
+unset INDEXNO
+unset VOTE
+unset GOVID

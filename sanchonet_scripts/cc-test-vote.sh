@@ -594,7 +594,7 @@ building_action_vote() {
                     --out-file action-votes/action${INDEXNO}.vote
                 echo " --vote-file action-votes/action${INDEXNO}.vote" >> action-votes/txvar.txt
                 echo -ne "\rPreparing vote of index number ${INDEXNO} "
-                sleep 0.2
+                sleep 0.5
                 INDEXNO=$((INDEXNO-1))
             else
                 

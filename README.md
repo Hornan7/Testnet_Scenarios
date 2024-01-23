@@ -168,7 +168,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_0 (Test 2)                   | `Yes`     | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `f902a03b03fb2bcd7ed26d10df846f190ba7ffc77c17f8398bef9cf412c25db7`
+- TxId: `6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2`
 - Highest index number: `49`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -332,7 +332,7 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
-- TxId: `df3d93bfda3f6e1ca3623bc6223eabbb58f6c116eebdd8383b59662d0feaff3d`
+- TxId: `3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac`
 - Highest index number: `15`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |

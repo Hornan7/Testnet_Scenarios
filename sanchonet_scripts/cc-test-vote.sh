@@ -559,7 +559,6 @@ vote_index_query() {
                 else
 		echo ""
                 echo "No vote variables recorded for last Index ${INDEXNO}."
-                INDEXNO=$((INDEXNO-1))
                 vote_index_query
                 fi
                 ;;

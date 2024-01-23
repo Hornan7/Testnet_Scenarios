@@ -64,7 +64,7 @@ INDEX_49=
 vote_index_query() {
 	case $INDEXNO in
            49)
-                if [ "$INDEX49" != "" ]; then
+                if [ "$INDEX_49" != "" ]; then
                 VOTE=${INDEX_49}
                 else
 		echo ""

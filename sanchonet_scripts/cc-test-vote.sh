@@ -69,7 +69,6 @@ vote_index_query() {
                 if [ "$INDEX_49" != "" ]; then
                 VOTE=${INDEX_49}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -80,7 +79,6 @@ vote_index_query() {
                 if [ "$INDEX_48" != "" ]; then
                 VOTE=${INDEX_48}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -91,7 +89,6 @@ vote_index_query() {
                 if [ "$INDEX_47" != "" ]; then
                 VOTE=${INDEX_47}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -102,7 +99,6 @@ vote_index_query() {
                 if [ "$INDEX_46" != "" ]; then
                 VOTE=${INDEX_46}
                 else
-                echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -113,7 +109,6 @@ vote_index_query() {
                 if [ "$INDEX_45" != "" ]; then
                 VOTE=${INDEX_45}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -124,7 +119,6 @@ vote_index_query() {
                 if [ "$INDEX_44" != "" ]; then
                 VOTE=${INDEX_44}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -135,7 +129,6 @@ vote_index_query() {
                 if [ "$INDEX_43" != "" ]; then
                 VOTE=${INDEX_43}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -146,7 +139,6 @@ vote_index_query() {
                 if [ "$INDEX_42" != "" ]; then
                 VOTE=${INDEX_42}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -157,7 +149,6 @@ vote_index_query() {
                 if [ "$INDEX_41" != "" ]; then
                 VOTE=${INDEX_41}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 	       	INDEXNO=$((INDEXNO-1))
@@ -168,7 +159,6 @@ vote_index_query() {
                 if [ "$INDEX_40" != "" ]; then
                 VOTE=${INDEX_40}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -179,7 +169,6 @@ vote_index_query() {
                 if [ "$INDEX_39" != "" ]; then
                 VOTE=${INDEX_39}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -190,7 +179,6 @@ vote_index_query() {
                 if [ "$INDEX_38" != "" ]; then
                 VOTE=${INDEX_38}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -201,7 +189,6 @@ vote_index_query() {
                 if [ "$INDEX_37" != "" ]; then
                 VOTE=${INDEX_37}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -212,7 +199,6 @@ vote_index_query() {
                 if [ "$INDEX_36" != "" ]; then
                 VOTE=${INDEX_36}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -223,7 +209,6 @@ vote_index_query() {
                 if [ "$INDEX_35" != "" ]; then
                 VOTE=${INDEX_35}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -234,7 +219,6 @@ vote_index_query() {
                 if [ "$INDEX_34" != "" ]; then
                 VOTE=${INDEX_34}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -245,7 +229,6 @@ vote_index_query() {
                 if [ "$INDEX_33" != "" ]; then
                 VOTE=${INDEX_33}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -256,7 +239,6 @@ vote_index_query() {
                 if [ "$INDEX_32" != "" ]; then
                 VOTE=${INDEX_32}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -267,7 +249,6 @@ vote_index_query() {
                 if [ "$INDEX_31" != "" ]; then
                 VOTE=${INDEX_31}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -278,7 +259,6 @@ vote_index_query() {
                 if [ "$INDEX_30" != "" ]; then
                 VOTE=${INDEX_30}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -289,7 +269,6 @@ vote_index_query() {
                 if [ "$INDEX_29" != "" ]; then
                 VOTE=${INDEX_29}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -300,7 +279,6 @@ vote_index_query() {
                 if [ "$INDEX_28" != "" ]; then
                 VOTE=${INDEX_28}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -311,7 +289,6 @@ vote_index_query() {
                 if [ "$INDEX_27" != "" ]; then
                 VOTE=${INDEX_27}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -322,7 +299,6 @@ vote_index_query() {
                 if [ "$INDEX_26" != "" ]; then
                 VOTE=${INDEX_26}
 		else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -333,7 +309,6 @@ vote_index_query() {
                 if [ "$INDEX_25" != "" ]; then
                 VOTE=${INDEX_25}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -344,7 +319,6 @@ vote_index_query() {
                 if [ "$INDEX_24" != "" ]; then
                 VOTE=${INDEX_24}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -366,7 +340,6 @@ vote_index_query() {
                 if [ "$INDEX_22" != "" ]; then
                 VOTE=${INDEX_22}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -377,7 +350,6 @@ vote_index_query() {
                 if [ "$INDEX_21" != "" ]; then
                 VOTE=${INDEX_21}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -388,7 +360,6 @@ vote_index_query() {
                 if [ "$INDEX_20" != "" ]; then
                 VOTE=${INDEX_20}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -399,7 +370,6 @@ vote_index_query() {
                 if [ "$INDEX_19" != "" ]; then
                 VOTE=${INDEX_19}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -410,7 +380,6 @@ vote_index_query() {
                 if [ "$INDEX_18" != "" ]; then
                 VOTE=${INDEX_18}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -421,7 +390,6 @@ vote_index_query() {
                 if [ "$INDEX_17" != "" ]; then
                 VOTE=${INDEX_17}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -432,7 +400,6 @@ vote_index_query() {
                 if [ "$INDEX_16" != "" ]; then
                 VOTE=${INDEX_16}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -443,7 +410,6 @@ vote_index_query() {
                 if [ "$INDEX_15" != "" ]; then
                 VOTE=${INDEX_15}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -454,7 +420,6 @@ vote_index_query() {
                 if [ "$INDEX_14" != "" ]; then
                 VOTE=${INDEX_14}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -465,7 +430,6 @@ vote_index_query() {
                 if [ "$INDEX_13" != "" ]; then
                 VOTE=${INDEX_13}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -476,7 +440,6 @@ vote_index_query() {
                 if [ "$INDEX_12" != "" ]; then
                 VOTE=${INDEX_12}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -487,7 +450,6 @@ vote_index_query() {
                 if [ "$INDEX_11" != "" ]; then
                 VOTE=${INDEX_11}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -498,7 +460,6 @@ vote_index_query() {
                 if [ "$INDEX_10" != "" ]; then
                 VOTE=${INDEX_10}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -509,7 +470,6 @@ vote_index_query() {
                 if [ "$INDEX_9" != "" ]; then
                 VOTE=${INDEX_9}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -520,7 +480,6 @@ vote_index_query() {
                 if [ "$INDEX_8" != "" ]; then
                 VOTE=${INDEX_8}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -531,7 +490,6 @@ vote_index_query() {
                 if [ "$INDEX_7" != "" ]; then
                 VOTE=${INDEX_7}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -542,7 +500,6 @@ vote_index_query() {
                 if [ "$INDEX_6" != "" ]; then
                 VOTE=${INDEX_6}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -553,7 +510,6 @@ vote_index_query() {
                 if [ "$INDEX_5" != "" ]; then
                 VOTE=${INDEX_5}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -564,7 +520,6 @@ vote_index_query() {
                 if [ "$INDEX_4" != "" ]; then
                 VOTE=${INDEX_4}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -575,7 +530,6 @@ vote_index_query() {
                 if [ "$INDEX_3" != "" ]; then
                 VOTE=${INDEX_3}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -586,7 +540,6 @@ vote_index_query() {
                 if [ "$INDEX_2" != "" ]; then
                 VOTE=${INDEX_2}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -597,7 +550,6 @@ vote_index_query() {
                 if [ "$INDEX_1" != "" ]; then
                 VOTE=${INDEX_1}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -608,7 +560,6 @@ vote_index_query() {
                 if [ "$INDEX_0" != "" ]; then
                 VOTE=${INDEX_0}
                 else
-		echo ""
                 echo "Vote skiped on Index ${INDEXNO}."
 		sleep 0.5
 		building_transaction

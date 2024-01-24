@@ -5,24 +5,24 @@
 # Make sure you use the same patern for each index (no space between the vote and "=" sign)
 # And then run the script.
 
-INDEX_0=yes
-INDEX_1=yes
-INDEX_2=no
-INDEX_3=abstain
+INDEX_0=
+INDEX_1=
+INDEX_2=
+INDEX_3=
 INDEX_4=
-INDEX_5=
-INDEX_6=
-INDEX_7=
+INDEX_5=no
+INDEX_6=no
+INDEX_7=no
 INDEX_8=
-INDEX_9=
-INDEX_10=
-INDEX_11=
-INDEX_12=
+INDEX_9=no
+INDEX_10=no
+INDEX_11=no
+INDEX_12=no
 INDEX_13=
 INDEX_14=
-INDEX_15=
-INDEX_16=
-INDEX_17=
+INDEX_15=no
+INDEX_16=no
+INDEX_17=no
 INDEX_18=
 INDEX_19=
 INDEX_20=
@@ -62,6 +62,7 @@ INDEX_49=
 ################################################################################################################
 unset INDEXNO
 unset VOTE
+rm -rf action-votes
 vote_index_query() {
 	case $INDEXNO in
            49)
@@ -610,9 +611,56 @@ vote_index_query() {
 		echo ""
                 echo "Vote skiped on Index ${INDEXNO}."
 		sleep 0.5
+		building_transaction
                 fi
                 ;;
-	esac
+    esac
+}
+
+building_transaction() {
+echo ""
+echo "------------------------------------------"
+echo "           Building Transaction"
+echo "------------------------------------------"
+sleep 0.5
+
+        #build the Transaction
+        cardano-cli conway transaction build \
+        --testnet-magic 4 \
+        --tx-in "$(cardano-cli query utxo --address $(cat payment.addr) --testnet-magic 4 --out-file /dev/stdout | jq -r 'keys[0]')" \
+        --change-address $(cat payment.addr) \
+        $(cat action-votes/txvar.txt) \
+        --witness-override 2 \
+        --out-file vote-tx.raw
+
+# Remove the action index options file
+rm action-votes/txvar.txt
+
+echo "           Signing Transaction"
+echo "------------------------------------------"
+sleep 0.5
+
+        #Sign the transaction
+        cardano-cli transaction sign --tx-body-file vote-tx.raw \
+        --signing-key-file cc-hot.skey \
+        --signing-key-file payment.skey \
+        --testnet-magic 4 \
+        --out-file vote-tx.signed
+
+echo "      Submiting Transaction On-Chain"
+echo "------------------------------------------"
+sleep 0.5
+
+        #Submit the Transaction
+        cardano-cli transaction submit \
+        --testnet-magic 4 \
+        --tx-file vote-tx.signed
+
+echo "Vote complete on ${GOVID}"
+unset INDEXNO
+unset VOTE
+rm -rf action-votes
+exit
 }
 
 building_action_vote() {
@@ -660,6 +708,7 @@ building_action_vote() {
                     echo "Preparing vote of index number ${INDEXNO} with the vote ${VOTE}"
                     echo " --vote-file action-votes/action${INDEXNO}.vote" >> action-votes/txvar.txt
                     sleep 1
+		    building_transaction
                     break                  
                 else
 		    break 
@@ -668,45 +717,4 @@ building_action_vote() {
             fi
     done
 }
-building_action_vote           
-echo ""
-echo "------------------------------------------"
-echo "           Building Transaction"
-echo "------------------------------------------"
-sleep 0.5
-
-        #build the Transaction
-        cardano-cli conway transaction build \
-        --testnet-magic 4 \
-        --tx-in "$(cardano-cli query utxo --address $(cat payment.addr) --testnet-magic 4 --out-file /dev/stdout | jq -r 'keys[0]')" \
-        --change-address $(cat payment.addr) \
-        $(cat action-votes/txvar.txt) \
-        --witness-override 2 \
-        --out-file vote-tx.raw
-        
-# Remove the action index options file        
-rm action-votes/txvar.txt
-  
-echo "           Signing Transaction"
-echo "------------------------------------------"
-sleep 0.5
-
-        #Sign the transaction
-        cardano-cli transaction sign --tx-body-file vote-tx.raw \
-        --signing-key-file cc-hot.skey \
-        --signing-key-file payment.skey \
-        --testnet-magic 4 \
-        --out-file vote-tx.signed
-
-echo "      Submiting Transaction On-Chain"
-echo "------------------------------------------"
-sleep 0.5
-
-        #Submit the Transaction
-        cardano-cli transaction submit \
-        --testnet-magic 4 \
-        --tx-file vote-tx.signed
-
-echo "Vote complete on ${GOVID}"
-unset INDEXNO
-unset VOTE
+building_action_vote

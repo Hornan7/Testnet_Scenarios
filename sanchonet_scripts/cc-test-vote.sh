@@ -329,7 +329,6 @@ vote_index_query() {
                 if [ "$INDEX_23" != "" ]; then
                 VOTE=${INDEX_23}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))

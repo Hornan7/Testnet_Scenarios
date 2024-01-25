@@ -46700,9 +46700,20 @@
                 "govActionIx": 0,
                 "txId": "fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-ac9c175b85b2180a68a84887e346b5e345fee6bed247f59ee1007f5f": "VoteYes",
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes",
                 "keyHash-e52bcdf85ab4e62fb96ce7c6ff2222b43307c6f3ca544a0933f82a0f": "VoteYes"
             },
             "deposit": 1000000000,
@@ -46735,10 +46746,21 @@
                 "govActionIx": 1,
                 "txId": "fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-6dda84782ad6b4b0fe09798853030be16748d56eb310f5edf5190071": "VoteYes",
                 "keyHash-ac9c175b85b2180a68a84887e346b5e345fee6bed247f59ee1007f5f": "VoteYes",
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes",
                 "keyHash-e52bcdf85ab4e62fb96ce7c6ff2222b43307c6f3ca544a0933f82a0f": "VoteYes"
             },
             "deposit": 1000000000,
@@ -48499,6 +48521,7 @@
                 "txId": "6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes"
             },
             "dRepVotes": {},
@@ -48533,6 +48556,7 @@
                 "txId": "6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes"
             },
             "dRepVotes": {},
@@ -48567,6 +48591,7 @@
                 "txId": "6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes"
             },
             "dRepVotes": {},
@@ -48601,6 +48626,7 @@
                 "txId": "6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes"
             },
             "dRepVotes": {},
@@ -49248,6 +49274,7 @@
                 "txId": "6e8cee144e665da4adb67d4e4f327e6e131a0987692dca24ad2b4b5da8cf16b2"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
                 "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo"
             },
@@ -50924,6 +50951,7 @@
             },
             "committeeVotes": {},
             "dRepVotes": {
+                "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteNo",
                 "keyHash-77ad23deef7941bf5279b759e2bf924ec55e7668757c40fb708d3e7e": "VoteYes",
                 "keyHash-adae9fa43726611f1c2c29f798f223316a084a3f54f8c3bf4fb8d410": "VoteNo",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
@@ -50955,6 +50983,7 @@
             },
             "committeeVotes": {},
             "dRepVotes": {
+                "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteNo",
                 "keyHash-77ad23deef7941bf5279b759e2bf924ec55e7668757c40fb708d3e7e": "VoteYes",
                 "keyHash-adae9fa43726611f1c2c29f798f223316a084a3f54f8c3bf4fb8d410": "VoteNo",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
@@ -50991,7 +51020,10 @@
                 "govActionIx": 0,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51026,7 +51058,11 @@
                 "govActionIx": 1,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51061,7 +51097,12 @@
                 "govActionIx": 2,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51096,7 +51137,13 @@
                 "govActionIx": 3,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51131,7 +51178,14 @@
                 "govActionIx": 4,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51166,7 +51220,15 @@
                 "govActionIx": 5,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51201,7 +51263,16 @@
                 "govActionIx": 6,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51236,7 +51307,17 @@
                 "govActionIx": 7,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "Abstain",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "Abstain",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51271,7 +51352,11 @@
                 "govActionIx": 8,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51306,7 +51391,12 @@
                 "govActionIx": 9,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51341,7 +51431,13 @@
                 "govActionIx": 10,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51376,7 +51472,14 @@
                 "govActionIx": 11,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51411,7 +51514,15 @@
                 "govActionIx": 12,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51446,7 +51557,16 @@
                 "govActionIx": 13,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51481,7 +51601,17 @@
                 "govActionIx": 14,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "Abstain",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "Abstain",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "Abstain",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "Abstain",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "Abstain",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "Abstain"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51516,7 +51646,12 @@
                 "govActionIx": 15,
                 "txId": "3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "Abstain",
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51551,7 +51686,10 @@
                 "govActionIx": 0,
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
-            "committeeVotes": {},
+            "committeeVotes": {
+                "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+            },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
                 "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes"
@@ -51664,6 +51802,7 @@
             },
             "committeeVotes": {
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -51702,6 +51841,7 @@
             },
             "committeeVotes": {
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -51740,6 +51880,7 @@
             },
             "committeeVotes": {
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -51778,6 +51919,7 @@
             },
             "committeeVotes": {
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -51815,7 +51957,9 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -51853,7 +51997,9 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -51891,7 +52037,9 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -51929,7 +52077,9 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -51967,7 +52117,9 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -52005,7 +52157,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -52043,7 +52198,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
             },
             "dRepVotes": {
@@ -52081,7 +52239,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -52119,7 +52280,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -52157,7 +52321,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -52195,7 +52362,10 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
                 "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
             },
             "dRepVotes": {
@@ -52233,8 +52403,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52271,8 +52445,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52309,8 +52487,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52347,8 +52529,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52385,8 +52571,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52423,8 +52613,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52461,8 +52655,12 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52499,8 +52697,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52537,8 +52740,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52575,8 +52783,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52613,8 +52826,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52651,8 +52869,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52689,8 +52912,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52727,8 +52955,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52765,8 +52998,13 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52803,8 +53041,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52841,8 +53085,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52879,8 +53129,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52917,8 +53173,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52955,8 +53217,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -52993,8 +53261,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53031,8 +53305,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53069,8 +53349,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53107,8 +53393,14 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteYes",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53145,8 +53437,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteNo",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53183,8 +53482,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteNo",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53221,8 +53527,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteNo",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53259,8 +53572,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteNo",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53297,8 +53617,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteNo",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53335,8 +53662,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteNo"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53373,8 +53707,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteNo",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53412,8 +53753,15 @@
                 "txId": "25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4"
             },
             "committeeVotes": {
+                "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
                 "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
-                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes"
+                "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+                "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+                "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+                "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+                "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+                "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteNo",
+                "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
             },
             "dRepVotes": {
                 "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteYes",
@@ -53523,6 +53871,348 @@
                 "network": "Testnet"
             },
             "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 0,
+                "txId": "156687372f23f3f75968bd697afbd568e43f65f7e9fdba1871fb93b0149892b7"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteNo",
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 1,
+                "txId": "156687372f23f3f75968bd697afbd568e43f65f7e9fdba1871fb93b0149892b7"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteNo",
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 2,
+                "txId": "156687372f23f3f75968bd697afbd568e43f65f7e9fdba1871fb93b0149892b7"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-3b538a38a4ee2cb21d92f0db6a36138daeb43de2a5d6b58538907048": "VoteNo",
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
+        },
+        {
+            "action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "8d2d239c251dd51d5ea6e8ceaf782aef162c81054ec306bae3adfc65c1916f01"
+                    },
+                    {
+                        "anchor": {
+                            "dataHash": "8af9e7a7e8a51b29a8591f694f15a3ab895ff432c79b5443132068b5ca1ff2a5",
+                            "url": "http://bit.ly / lzLDY"
+                        }
+                    }
+                ],
+                "tag": "NewConstitution"
+            },
+            "actionId": {
+                "govActionIx": 0,
+                "txId": "0a769d83b39dedda10764b93d2f7dd83f816296e7486e3833978c4b99a839f1f"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "8d2d239c251dd51d5ea6e8ceaf782aef162c81054ec306bae3adfc65c1916f01"
+                    },
+                    {
+                        "anchor": {
+                            "dataHash": "8af9e7a7e8a51b29a8591f694f15a3ab895ff432c79b5443132068b5ca1ff2a5",
+                            "url": "http://bit.ly / lzLDY"
+                        }
+                    }
+                ],
+                "tag": "NewConstitution"
+            },
+            "actionId": {
+                "govActionIx": 1,
+                "txId": "0a769d83b39dedda10764b93d2f7dd83f816296e7486e3833978c4b99a839f1f"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "8d2d239c251dd51d5ea6e8ceaf782aef162c81054ec306bae3adfc65c1916f01"
+                    },
+                    {
+                        "anchor": {
+                            "dataHash": "8af9e7a7e8a51b29a8591f694f15a3ab895ff432c79b5443132068b5ca1ff2a5",
+                            "url": "http://bit.ly / lzLDY"
+                        }
+                    }
+                ],
+                "tag": "NewConstitution"
+            },
+            "actionId": {
+                "govActionIx": 2,
+                "txId": "0a769d83b39dedda10764b93d2f7dd83f816296e7486e3833978c4b99a839f1f"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "8d2d239c251dd51d5ea6e8ceaf782aef162c81054ec306bae3adfc65c1916f01"
+                    },
+                    {
+                        "anchor": {
+                            "dataHash": "8af9e7a7e8a51b29a8591f694f15a3ab895ff432c79b5443132068b5ca1ff2a5",
+                            "url": "http://bit.ly / lzLDY"
+                        }
+                    }
+                ],
+                "tag": "NewConstitution"
+            },
+            "actionId": {
+                "govActionIx": 3,
+                "txId": "0a769d83b39dedda10764b93d2f7dd83f816296e7486e3833978c4b99a839f1f"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "8d2d239c251dd51d5ea6e8ceaf782aef162c81054ec306bae3adfc65c1916f01"
+                    },
+                    {
+                        "anchor": {
+                            "dataHash": "8af9e7a7e8a51b29a8591f694f15a3ab895ff432c79b5443132068b5ca1ff2a5",
+                            "url": "http://bit.ly / lzLDY"
+                        }
+                    }
+                ],
+                "tag": "NewConstitution"
+            },
+            "actionId": {
+                "govActionIx": 4,
+                "txId": "0a769d83b39dedda10764b93d2f7dd83f816296e7486e3833978c4b99a839f1f"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {},
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {}
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 0,
+                "txId": "1dc054a4db56ac322d3772180e38059cdcf3f1927d5b0c366f0908f13b1e226a"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 1,
+                "txId": "1dc054a4db56ac322d3772180e38059cdcf3f1927d5b0c366f0908f13b1e226a"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
+        },
+        {
+            "action": {
+                "contents": {
+                    "govActionIx": 0,
+                    "txId": "db5f8b1b3443cae285ed857233542e7921a0a83d2508189ba06d54b968c0f5ad"
+                },
+                "tag": "NoConfidence"
+            },
+            "actionId": {
+                "govActionIx": 2,
+                "txId": "1dc054a4db56ac322d3772180e38059cdcf3f1927d5b0c366f0908f13b1e226a"
+            },
+            "committeeVotes": {},
+            "dRepVotes": {
+                "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteNo"
+            },
+            "deposit": 1000000000,
+            "expiresAfter": 234,
+            "proposedIn": 224,
+            "returnAddr": {
+                "credential": {
+                    "keyHash": "db1bc3c3f99ce68977ceaf27ab4dd917123ef9e73f85c304236eab23"
+                },
+                "network": "Testnet"
+            },
+            "stakePoolVotes": {
+                "b4dcf72f4a1a88cf32b4a49412d7e629d05fae4c8f63d01f75e0ff3c": "VoteNo"
+            }
         }
     ]
 }

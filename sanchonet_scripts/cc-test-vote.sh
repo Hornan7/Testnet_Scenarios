@@ -2,13 +2,15 @@
 
 #################################################################################################################
 # Modify these variables with your vote on each index number of the same Governance action ID.
-# Make sure you use the same patern for each index (no space between the vote and "=" sign)
+# Make sure you use the same patern for each index. (no space between the vote and "=" sign)
+# Also make sure to use ONLY lower case letters for your votes. ex:(yes,no,abstain)
+# Leave the variable value EMPTY if you do not wish to vote on that governance action index.
 # And then run the script.
 
 INDEX_0=
 INDEX_1=
 INDEX_2=
-INDEX_3=
+INDEX_3=no
 INDEX_4=
 INDEX_5=no
 INDEX_6=no
@@ -32,10 +34,10 @@ INDEX_23=
 INDEX_24=
 INDEX_25=
 INDEX_26=
-INDEX_27=
-INDEX_28=
-INDEX_29=
-INDEX_30=
+INDEX_27=no
+INDEX_28=no
+INDEX_29=no
+INDEX_30=no
 INDEX_31=
 INDEX_32=
 INDEX_33=
@@ -54,7 +56,7 @@ INDEX_45=
 INDEX_46=
 INDEX_47=
 INDEX_48=
-INDEX_49=
+INDEX_49=no
 
 ################################################################################################################
 # Do not modify what is below if you run this script from your keys directory.
@@ -62,7 +64,7 @@ INDEX_49=
 ################################################################################################################
 unset INDEXNO
 unset VOTE
-rm -rf action-votes
+rm -rf action-votes 2>/dev/null
 vote_index_query() {
 	case $INDEXNO in
            49)
@@ -329,7 +331,6 @@ vote_index_query() {
                 if [ "$INDEX_23" != "" ]; then
                 VOTE=${INDEX_23}
                 else
-		echo ""
                 echo "vote skiped on Index ${INDEXNO}."
 		sleep 0.5
                 INDEXNO=$((INDEXNO-1))
@@ -585,7 +586,7 @@ sleep 0.5
         --out-file vote-tx.raw
 
 # Remove the action index options file
-rm action-votes/txvar.txt
+rm action-votes/txvar.txt 2>/dev/null
 
 echo "           Signing Transaction"
 echo "------------------------------------------"
@@ -610,7 +611,6 @@ sleep 0.5
 echo "Vote complete on ${GOVID}"
 unset INDEXNO
 unset VOTE
-rm -rf action-votes
 exit
 }
 
@@ -649,22 +649,17 @@ building_action_vote() {
                 
 		#query the vote from index
 		vote_index_query
-		if [ "$INDEX_0" != "" ]; then
 		    cardano-cli conway governance vote create \
                     --${VOTE} \
                     --governance-action-tx-id "${GOVID}" \
                     --governance-action-index "${INDEXNO}" \
                     --cc-hot-verification-key-file cc-hot.vkey \
                     --out-file action-votes/action${INDEXNO}.vote
-                    echo "Preparing vote of index number ${INDEXNO} with the vote ${VOTE}"
+                    echo "Preparing vote of index number ${INDEXNO} with vote ${VOTE}"
                     echo " --vote-file action-votes/action${INDEXNO}.vote" >> action-votes/txvar.txt
                     sleep 1
 		    building_transaction
                     break                  
-                else
-		    break 
-
-        	fi  
             fi
     done
 }

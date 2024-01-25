@@ -173,7 +173,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
 |------------------------------------|-----------|------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| INDEX_0 (Test 3)                   | `No`      | `No`         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
+| INDEX_0 (Test 3)                   | `No`      | `No`       | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 | INDEX_1 (Test 4)                   | `Yes`     | `No`       | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 | INDEX_2 (Test 5)                   | `Yes`     | `Yes`      | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 | INDEX_3 (Test 6)                   | `No`      | `No`       | `No`      | ``        | ``        | ``        | ``        | ``        | ``        |

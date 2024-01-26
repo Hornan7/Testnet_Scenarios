@@ -1,0 +1,93 @@
+{
+  "action": {
+    "contents": [
+      [
+        {
+          "credential": {
+            "keyHash": "2896a5eb2b697803dcf34299629ea16d9d53b8d6eea565fc7c854f35"
+          },
+          "network": "Testnet"
+        },
+        54000000
+      ]
+    ],
+    "tag": "TreasuryWithdrawals"
+  },
+  "actionId": {
+    "govActionIx": 0,
+    "txId": "fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92"
+  },
+  "committeeVotes": {
+    "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+    "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+    "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+    "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+    "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+    "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteNo",
+    "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+    "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteYes",
+    "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+  },
+  "dRepVotes": {
+    "keyHash-ac9c175b85b2180a68a84887e346b5e345fee6bed247f59ee1007f5f": "VoteYes",
+    "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes",
+    "keyHash-e52bcdf85ab4e62fb96ce7c6ff2222b43307c6f3ca544a0933f82a0f": "VoteYes"
+  },
+  "deposit": 1000000000,
+  "expiresAfter": 229,
+  "proposedIn": 219,
+  "returnAddr": {
+    "credential": {
+      "keyHash": "192a8eb77a6f405d8196dd96db13950c48300a0ff8b6f42e7901a2ef"
+    },
+    "network": "Testnet"
+  },
+  "stakePoolVotes": {}
+}
+{
+  "action": {
+    "contents": [
+      [
+        {
+          "credential": {
+            "keyHash": "893b50a95e7ffd6603f08cbab569f05ed73222db740ea1fb21906950"
+          },
+          "network": "Testnet"
+        },
+        55000000
+      ]
+    ],
+    "tag": "TreasuryWithdrawals"
+  },
+  "actionId": {
+    "govActionIx": 1,
+    "txId": "fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92"
+  },
+  "committeeVotes": {
+    "keyHash-178af21d50f0ce3aeddae6ad9b375ad4a7d982d48091f0b4e7e1bb31": "VoteYes",
+    "keyHash-212f86a07149f5d19e1f841d065f9e76c6b4a76db727ae7afc2cb2e4": "VoteYes",
+    "keyHash-53a42debdc7ffd90085ab7fd9800b63e6d1c9ac481ba6eb7b6a844e4": "VoteYes",
+    "keyHash-677552649a2b6cad361caf41304989b1c4543233a4d6a83873b568d6": "VoteYes",
+    "keyHash-8b8fccbc95bd9ed423be3fc0694b21dbfac736cfafdc1fb0f6eb5257": "VoteYes",
+    "keyHash-942d1f20306f3f4cabffac0d549af02f4d94f0963c1f06378fec2e8c": "VoteYes",
+    "keyHash-a6e5df9f0c3c3c45380f7c26cd93d9d297839522e453e0f8f5983c33": "VoteYes",
+    "keyHash-b41855e400020882ae44e868b341ffbad1c1b26cac70186d57387de4": "VoteYes",
+    "keyHash-d080a6bf0b347d7e647357361199b77fbbdf2680c6a091e1be79b540": "VoteYes"
+  },
+  "dRepVotes": {
+    "keyHash-6dda84782ad6b4b0fe09798853030be16748d56eb310f5edf5190071": "VoteYes",
+    "keyHash-ac9c175b85b2180a68a84887e346b5e345fee6bed247f59ee1007f5f": "VoteYes",
+    "keyHash-c1ba49d52822bc4ef30cbf77060251668f1a6ef15ca46d18f76cc758": "VoteYes",
+    "keyHash-e52bcdf85ab4e62fb96ce7c6ff2222b43307c6f3ca544a0933f82a0f": "VoteYes"
+  },
+  "deposit": 1000000000,
+  "expiresAfter": 229,
+  "proposedIn": 219,
+  "returnAddr": {
+    "credential": {
+      "keyHash": "192a8eb77a6f405d8196dd96db13950c48300a0ff8b6f42e7901a2ef"
+    },
+    "network": "Testnet"
+  },
+  "stakePoolVotes": {}
+}

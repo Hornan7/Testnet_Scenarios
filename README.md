@@ -92,6 +92,7 @@ The Goal of the test is to determine all final Proposal Ratification outcomes of
 ### Expected Results
 
 **Suite 1:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
@@ -152,7 +153,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
-- TxId: `04577af6d8751e0a449c0b3088f036fb8a8f0a7fb030674c22bc73e301dec99a`
+- TxId: [`04577af6d8751e0a449c0b3088f036fb8a8f0a7fb030674c22bc73e301dec99a`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-211.json)
 - Highest index number: `0`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -160,7 +161,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_0 (Test 1)                   | `No`      | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `239e5eab9d7b4a20341ada7adb18ccdcbcdc44b7ed29ce1c9b8783e2a4931ff8`
+- TxId: [`239e5eab9d7b4a20341ada7adb18ccdcbcdc44b7ed29ce1c9b8783e2a4931ff8`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-211.json)
 - Highest index number: `0`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -168,7 +169,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_0 (Test 2)                   | `Yes`     | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4`
+- TxId: [`25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-222.json)
 - Highest index number: `49`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -238,6 +239,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 ### Result <at Epoch No.>
 
 **Suite 1:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. |Vote pattern   | Final result                                  | Matched expected?            |
 |----------|---------------|-----------------------------------------------|------------------------------|
@@ -309,6 +311,7 @@ This premise may be disproven as a result of these tests. If it is, this will he
 ### Expected Results
 
 **Suite 2:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
@@ -359,6 +362,7 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 ### Result <at Epoch No.>
 
 **Suite 2:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. |Vote pattern        | Final result                                  | Matched expected?            |
 |----------|--------------------|-----------------------------------------------|------------------------------|

@@ -92,6 +92,7 @@ The Goal of the test is to determine all final Proposal Ratification outcomes of
 ### Expected Results
 
 **Suite 1:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
@@ -152,7 +153,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
-- TxId: `04577af6d8751e0a449c0b3088f036fb8a8f0a7fb030674c22bc73e301dec99a`
+- TxId: [`04577af6d8751e0a449c0b3088f036fb8a8f0a7fb030674c22bc73e301dec99a`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-211.json)
 - Highest index number: `0`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -160,7 +161,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_0 (Test 1)                   | `No`      | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `239e5eab9d7b4a20341ada7adb18ccdcbcdc44b7ed29ce1c9b8783e2a4931ff8`
+- TxId: [`239e5eab9d7b4a20341ada7adb18ccdcbcdc44b7ed29ce1c9b8783e2a4931ff8`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-211.json)
 - Highest index number: `0`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -168,7 +169,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_0 (Test 2)                   | `Yes`     | ``         | ``        | ``        | ``        | ``        | ``        | ``        | ``        |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4`
+- TxId: [`25d77e4eb02b8f75eadcf6b6710fb6aadf9c16bd6816d043c60465a0133beef4`](https://github.com/Hornan7/Testnet_Scenarios/blob/main/governance_actions/treasury-withdrawal-222.json)
 - Highest index number: `49`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -225,7 +226,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_49 (Test 52)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92`
+- TxId: [`fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92`](https://github.com/Hornan7/Testnet_Scenarios/blob/Results-test-suite-2/governance_actions/treasury-withdrawal-222-2.json)
 - Highest index number: `1`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -238,63 +239,64 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 ### Result <at Epoch No.>
 
 **Suite 1:**
+- Quorum: `3/9` or `0.3333333333333333`
 
-| Test no. |Vote pattern   | Final result                               | Matched expected?            |
-|----------|---------------|--------------------------------------------|------------------------------|
-Test 1     | 0 Yes, 1 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |
-Test 2     | 1 Yes, 0 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |
-Test 3     | 0 Yes, 2 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |  
-Test 4     | 1 Yes, 1 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |
-Test 5     | 2 Yes, 0 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 6     | 0 Yes, 3 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |  
-Test 7     | 1 Yes, 2 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 8     | 2 Yes, 1 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{red} \sf{No}}$$    | 
-Test 9     | 3 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ |
-Test 10    | 0 Yes, 4 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 11    | 1 Yes, 3 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 12    | 2 Yes, 2 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 13    | 3 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 14    | 4 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 15    | 0 Yes, 5 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 16    | 1 Yes, 4 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 17    | 2 Yes, 3 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 18    | 3 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 19    | 4 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 20    | 5 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 21    | 0 Yes, 6 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 22    | 1 Yes, 5 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 23    | 2 Yes, 4 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 24    | 3 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    | 
-Test 25    | 4 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 26    | 5 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 27    | 6 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 28    | 0 Yes, 7 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 29    | 1 Yes, 6 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 30    | 2 Yes, 5 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 31    | 3 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    | 
-Test 32    | 4 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 33    | 5 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 34    | 6 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 35    | 7 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 36    | 0 Yes, 8 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 37    | 1 Yes, 7 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 38    | 2 Yes, 6 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 39    | 3 Yes, 5 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    | 
-Test 40    | 4 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    | 
-Test 41    | 5 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 42    | 6 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 43    | 7 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 44    | 8 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 45    | 0 Yes, 9 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |  
-Test 46    | 1 Yes, 8 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ |  
-Test 47    | 2 Yes, 7 No   | $${\color{red} \sf{Not \space Ratified}}$$ | $${\color{green} \sf{Yes}}$$ | 
-Test 48    | 3 Yes, 6 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    |
-Test 49    | 4 Yes, 5 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{red} \sf{No}}$$    |
-Test 50    | 5 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 51    | 6 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 52    | 7 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 53    | 8 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
-Test 54    | 9 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$          | $${\color{green} \sf{Yes}}$$ | 
+| Test no. |Vote pattern   | Final result                                  | Matched expected?            |
+|----------|---------------|-----------------------------------------------|------------------------------|
+Test 1     | 0 Yes, 1 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 2     | 1 Yes, 0 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 3     | 0 Yes, 2 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |  
+Test 4     | 1 Yes, 1 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 5     | 2 Yes, 0 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 6     | 0 Yes, 3 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |  
+Test 7     | 1 Yes, 2 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 8     | 2 Yes, 1 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{red} \sf{No}}$$    | 
+Test 9     | 3 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 10    | 0 Yes, 4 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 11    | 1 Yes, 3 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 12    | 2 Yes, 2 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 13    | 3 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 14    | 4 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 15    | 0 Yes, 5 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 16    | 1 Yes, 4 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 17    | 2 Yes, 3 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 18    | 3 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 19    | 4 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 20    | 5 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 21    | 0 Yes, 6 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 22    | 1 Yes, 5 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 23    | 2 Yes, 4 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 24    | 3 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    | 
+Test 25    | 4 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 26    | 5 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 27    | 6 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 28    | 0 Yes, 7 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 29    | 1 Yes, 6 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 30    | 2 Yes, 5 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 31    | 3 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    | 
+Test 32    | 4 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 33    | 5 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 34    | 6 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 35    | 7 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 36    | 0 Yes, 8 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 37    | 1 Yes, 7 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 38    | 2 Yes, 6 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 39    | 3 Yes, 5 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    | 
+Test 40    | 4 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    | 
+Test 41    | 5 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 42    | 6 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 43    | 7 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 44    | 8 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 45    | 0 Yes, 9 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |  
+Test 46    | 1 Yes, 8 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |  
+Test 47    | 2 Yes, 7 No   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 48    | 3 Yes, 6 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    |
+Test 49    | 4 Yes, 5 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{red} \sf{No}}$$    |
+Test 50    | 5 Yes, 4 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 51    | 6 Yes, 3 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 52    | 7 Yes, 2 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 53    | 8 Yes, 1 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
+Test 54    | 9 Yes, 0 No   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ | 
 
 ### Comments:
 <`Additional comments`>
@@ -309,6 +311,7 @@ This premise may be disproven as a result of these tests. If it is, this will he
 ### Expected Results
 
 **Suite 2:**
+- Quorum: `3/9` or `0.3333333333333333`
 
 | Test no. | Vote pattern  | Expected result   |
 |----------|---------------|-------------------|
@@ -333,7 +336,7 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
-- TxId: `3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac`
+- TxId: [`3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac`](https://github.com/Hornan7/Testnet_Scenarios/blob/Results-test-suite-2/governance_actions/treasury-withdrawal-222-3.json)
 - Highest index number: `15`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -359,25 +362,26 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 ### Result <at Epoch No.>
 
 **Suite 2:**
+- Quorum: `3/9` or `0.3333333333333333`
 
-| Test no. | Final result   | Matched expected?   |
-|----------|----------------|---------------------|
-Test 1     | 
-Test 2     |  
-Test 3     |   
-Test 4     | 
-Test 5     |  
-Test 6     | 
-Test 7     | 
-Test 8     | 
-Test 9     | 
-Test 10    | 
-Test 11    | 
-Test 12    | 
-Test 13    | 
-Test 14    | 
-Test 15    | 
-Test 16    | 
+| Test no. |Vote pattern        | Final result                                  | Matched expected?            |
+|----------|--------------------|-----------------------------------------------|------------------------------|
+Test 1     | 1 Yes, 1 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 2     | 1 Yes, 2 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 3     | 1 Yes, 3 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 4     | 1 Yes, 4 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 5     | 1 Yes, 5 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ | 
+Test 6     | 1 Yes, 6 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 7     | 1 Yes, 7 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 8     | 1 Yes, 8 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 9     | 2 Yes, 1 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 10    | 2 Yes, 2 Abstain   | $${\color{red} \sf{No \space Ratification}}$$ | $${\color{green} \sf{Yes}}$$ |
+Test 11    | 2 Yes, 3 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 12    | 2 Yes, 4 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 13    | 2 Yes, 5 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 14    | 2 Yes, 6 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 15    | 2 Yes, 7 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
+Test 16    | 3 Yes, 1 Abstain   | $${\color{green} \sf{Ratified}}$$             | $${\color{green} \sf{Yes}}$$ |
 
 ### Comments:
 <`Additional comments`>

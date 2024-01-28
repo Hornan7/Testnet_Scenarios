@@ -226,7 +226,7 @@ Test 54    | 9 Yes, 0 No   | Confirmed Ratifcation due to Quorum being met and m
 | INDEX_49 (Test 52)                 | `Yes`     | `Yes`      | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `Yes`     | `No`      | `No`      |
 ---
 - Governance action type: `treasury withdrawal`
-- TxId: `fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92`
+- TxId: [`fc921d974f6fe0fee05e6cf5147320d5b3341ddb0fa89b2507bbc43b1b6b4e92`](https://github.com/Hornan7/Testnet_Scenarios/blob/Results-test-suite-2/governance_actions/treasury-withdrawal-222-2.json)
 - Highest index number: `1`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |
@@ -336,7 +336,7 @@ NB: Testing ends here as 3 Yes votes alone should pass the original full 9 CC Me
 
 ### Governance Actions
 - Governance action type: `treasury withdrawal`
-- TxId: `3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac`
+- TxId: [`3e591302d280f6acd70028b5571be4b68e3c978c6f593d14ee268627b2ea3cac`](https://github.com/Hornan7/Testnet_Scenarios/blob/Results-test-suite-2/governance_actions/treasury-withdrawal-222-3.json)
 - Highest index number: `15`
 
 | Index variables                    | key 1     |  key 2     | key 3     | key 4     | key 5     | key 6     | key 7     | key 8     | key 9     |

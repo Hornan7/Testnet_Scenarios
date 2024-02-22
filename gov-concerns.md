@@ -1,5 +1,5 @@
 ---
-Title: Concerns and recomendations following the test scenarios on SanchoNet
+Title: Concerns and recommendations following the test scenarios on SanchoNet
 Category: Governance
 Authors:
     - Mike Hornan <mike.hornan@able-pool.io>
@@ -9,7 +9,7 @@ Discussions:
     - <https://twitter.com/Hornan7>
 Created: 2024-02-21
 ---
-# Concerns and recomendations following the test scenarios on SanchoNet
+# Concerns and recommendations following the test scenarios on SanchoNet
 
 ## Abstract
 

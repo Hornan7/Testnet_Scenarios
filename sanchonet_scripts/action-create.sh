@@ -96,7 +96,7 @@ sleep 0.2
         # Submit the Transaction
         cardano-cli transaction submit \
         --testnet-magic 4 \
-        --tx-file action-tx.signed | ( read RESULT; echo $RESULT )
+        --tx-file action-tx.signed | ( read RESULT; echo "${RESULT}" )
 
  	# Add the governance action to a sharable list
   	if [ $RESULT == "Transaction successfully submitted." ]; then

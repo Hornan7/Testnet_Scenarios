@@ -1,16 +1,19 @@
 #!/bin/bash
+########################################################################
+# Modify the INDEXNO variable depending on the maximum index number
+# per transaction ID that you want to submit.
+# ex: INDEXNO=49 will give you 50 governance actions, including index 0.
 
-# Prompt for more governance actions
-unset KEY_NUMBER
-KEY_NUMBER=50
-building_gov_action() {
-    unset INDEXNO
-    unset AMOUNT    
-    echo "What will be the highest index number of your treasury action?"
-    read INDEXNO
+INDEXNO=49
+
+
+
+#############################
+# Do not modify whats below #
+#############################
+AMOUNT=1000000000
+building_gov_action() {   
     sleep 0.5
-    echo "What is the max amount to withdraw (in Lovelace)?"
-    read AMOUNT
     echo "------------------------------------------"
     echo "              Creating Action"
     echo "------------------------------------------"
@@ -28,30 +31,31 @@ building_gov_action() {
   		    --deposit-return-stake-verification-key-file stake.vkey \
   		    --anchor-url https://hornan7.github.io/proposal.txt \
   		    --anchor-data-hash 460059c9aded5a476378db48cafa45f5c0cc733b389262364207ccf5ebae1590 \
-  		    --funds-receiving-stake-verification-key-file stake-keys/stake${KEY_NUMBER}.vkey \
+  		    --funds-receiving-stake-verification-key-file stake.vkey \
   		    --transfer ${AMOUNT} \
   		    --out-file action-create/action${INDEXNO}.action
                 echo " --proposal-file action-create/action${INDEXNO}.action" >> action-create/txvar.txt
                 echo -ne "\rPreparing action number ${INDEXNO} "
-                sleep 0.2
+                sleep 0.1
 		AMOUNT=$((AMOUNT-1000000))
-		KEY_NUMBER=$((KEY_NUMBER-1))
                 INDEXNO=$((INDEXNO-1))
             else
+	    	if [ "INDEXNO" -eq "0" ]; then
                     cardano-cli conway governance action create-treasury-withdrawal \
                     --testnet \
                     --governance-action-deposit 1000000000 \
                     --deposit-return-stake-verification-key-file stake.vkey \
                     --anchor-url https://hornan7.github.io/proposal.txt \
                     --anchor-data-hash 460059c9aded5a476378db48cafa45f5c0cc733b389262364207ccf5ebae1590 \
-                    --funds-receiving-stake-verification-key-file stake-keys/stake${KEY_NUMBER}.vkey \
+                    --funds-receiving-stake-verification-key-file stake.vkey \
                     --transfer ${AMOUNT} \
                     --out-file action-create/action${INDEXNO}.action
                 echo " --proposal-file action-create/action${INDEXNO}.action" >> action-create/txvar.txt
                 echo -ne "\rPreparing action number ${INDEXNO} "
 
-                    sleep 1
-                    break  
+                    sleep 0.5
+		fi      
+                break  
             fi
     done
 }
@@ -60,9 +64,9 @@ building_gov_action
 echo "------------------------------------------"
 echo "           Building Transaction"
 echo "------------------------------------------"
-sleep 0.5
+sleep 0.2
 
-        #build the Transaction
+        # Build the Transaction
         cardano-cli conway transaction build \
         --testnet-magic 4 \
         --tx-in "$(cardano-cli query utxo --address $(cat payment.addr) --testnet-magic 4 --out-file /dev/stdout | jq -r 'keys[0]')" \
@@ -76,25 +80,35 @@ rm -rf action-create
   
 echo "           Signing Transaction"
 echo "------------------------------------------"
-sleep 0.5
+sleep 0.2
 
-        #Sign the transaction
+        # Sign the transaction
         cardano-cli transaction sign --tx-body-file action-tx.raw \
         --signing-key-file stake.skey \
         --signing-key-file payment.skey \
         --testnet-magic 4 \
-        --out-file vote-tx.signed
+        --out-file action-tx.signed
 
 echo "      Submiting Transaction On-Chain"
 echo "------------------------------------------"
-sleep 0.5
+sleep 0.2
 
-        #Submit the Transaction
+        # Submit the Transaction
         cardano-cli transaction submit \
         --testnet-magic 4 \
-        --tx-file vote-tx.signed
+        --tx-file action-tx.signed | ( read RESULT; echo $RESULT )
 
-echo "Governance action submition complete"
+ 	# Add the governance action to a sharable list
+  	if [ $RESULT == "Transaction successfully submitted." ]; then
+   	  cardano-cli conway transaction txid \
+   	  --tx-file action-tx.signed >> actionsID.txt
+      	  echo "Governance action ID as been added to actionsID.txt file."
+	  echo "Share actionsID.txt with the others when you're done."
+   	  echo "Governance action submition complete"
+      	else
+          echo "Couldn't add the governance action ID to actionID.txt file because of a transaction error."
+	  echo "Please tell Mike that he F%/?ed up."
+    	  echo "Governance action submition failed"
+	fi
 unset INDEXNO
-unset KEY_NUMBER
 unset AMOUNT

@@ -40,7 +40,7 @@ building_gov_action() {
 		AMOUNT=$((AMOUNT-1000000))
                 INDEXNO=$((INDEXNO-1))
             else
-	    	if [ "INDEXNO" -eq "0" ]; then
+	    	if [ "$INDEXNO" -eq "0" ]; then
                     cardano-cli conway governance action create-treasury-withdrawal \
                     --testnet \
                     --governance-action-deposit 1000000000 \
@@ -99,7 +99,7 @@ sleep 0.2
         --tx-file action-tx.signed | ( read RESULT; echo "${RESULT}" )
 
  	# Add the governance action to a sharable list
-  	if [ $RESULT == "Transaction successfully submitted." ]; then
+  	if [ "$RESULT" == "Transaction successfully submitted." ]; then
    	  cardano-cli conway transaction txid \
    	  --tx-file action-tx.signed >> actionsID.txt
       	  echo "Governance action ID as been added to actionsID.txt file."

@@ -21,7 +21,8 @@ building_gov_action() {
     
     #create the action file directory   
     mkdir action-create 2>/dev/null
- 
+    rm my_outputs.txt 2>/dev/null
+     
     #create the vote files
     while true; do
             if [ "$INDEXNO" != "0" ]; then
@@ -96,10 +97,10 @@ sleep 0.2
         # Submit the Transaction
         cardano-cli transaction submit \
         --testnet-magic 4 \
-        --tx-file action-tx.signed | ( read RESULT; echo "${RESULT}" )
+        --tx-file action-tx.signed > my_outputs.txt 2>&1
 
  	# Add the governance action to a sharable list
-  	if [ "$RESULT" == "Transaction successfully submitted." ]; then
+  	if [ "$(cat my_outputs.txt)" == "Transaction successfully submitted." ]; then
    	  cardano-cli conway transaction txid \
    	  --tx-file action-tx.signed >> actionsID.txt
       	  echo "Governance action ID as been added to actionsID.txt file."
@@ -108,7 +109,7 @@ sleep 0.2
       	else
           echo "Couldn't add the governance action ID to actionID.txt file because of a transaction error."
 	  echo "Please tell Mike that he F%/?ed up."
-    	  echo "Governance action submition failed"
+    	  echo "Governance action submition failed, see my_outputs.txt file for error logs."
 	fi
 unset INDEXNO
 unset AMOUNT

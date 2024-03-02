@@ -63,10 +63,10 @@ building_gov_action() {
 time_passing_animation() {
     local animation="|/-\\"
     local dots=""
-    for _ in {1..5}; do
-        for i in $(seq 0 5); do
+    for _ in {1..3}; do
+        for i in $(seq 0 3); do
             echo -n -e "\r[ ${animation:$i:1} ] Waiting$dots"
-            sleep 0.5
+            sleep 1
             dots+=".."
             if [ ${#dots} -gt 20 ]; then
                 dots=""

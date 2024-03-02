@@ -81,7 +81,8 @@ verify_mem_pool() {
  		if [ "$MEMPOOL" != "false" ]; then
    			echo "Your Transaction is still in the memory pool. Please Wait...."
       			time_passing_animation
-	 		sleep 5
+	 		MEMPOOL=$(cardano-cli conway query tx-mempool --testnet-magic 4 tx-exists $(cardano-cli conway transaction txid --tx-file action-tx.signed) | jq .exists)
+	 		sleep 2
     		else
       			echo "Your Transaction as been included into a block! You can now proceed to your next governance action spam"
 	 		break

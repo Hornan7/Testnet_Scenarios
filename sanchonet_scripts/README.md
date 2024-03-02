@@ -10,6 +10,9 @@ sudo chmod 700 dRepvote.sh
 sudo chmod 700 action-create.sh
 ```
 ### Here is a link to both scripts
+If you guys want to read it before running it:
+
 [action-create.sh](https://github.com/Hornan7/Testnet_Scenarios/blob/main/sanchonet_scripts/action-create.sh)
+
 [dRepvote.sh](https://github.com/Hornan7/SanchoBatchVote/blob/main/dRepvote.sh)
 

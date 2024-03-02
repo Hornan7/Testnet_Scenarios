@@ -60,7 +60,34 @@ building_gov_action() {
             fi
     done
 }
-
+time_passing_animation() {
+    local animation="|/-\\"
+    local dots=""
+    for _ in {1..3}; do
+        for i in $(seq 0 3); do
+            echo -n -e "\r[ ${animation:$i:1} ] Waiting$dots"
+            sleep 0.5
+            dots+=".."
+            if [ ${#dots} -gt 20 ]; then
+                dots=""
+            fi
+        done
+    done
+    echo
+}
+verify_mem_pool() {
+	MEMPOOL=$(cardano-cli conway query tx-mempool --testnet-magic 4 tx-exists $(cardano-cli conway transaction txid --tx-file action-tx.signed) | jq .exists)
+	while true; do
+ 		if [ "$MEMPOOL" != "false" ]; then
+   			echo "Your Transaction is still in the memory pool. Please Wait...."
+      			time_passing_animation
+	 		sleep 5
+    		else
+      			echo "Your Transaction as been included into a block! You can now proceed to your next governance action spam"
+	 		break
+    		fi
+        done
+}
 building_gov_action           
 echo "------------------------------------------"
 echo "           Building Transaction"
@@ -110,6 +137,9 @@ sleep 0.2
           echo "Couldn't add the governance action ID to actionID.txt file because of a transaction error."
 	  echo "Please tell Mike that he F%/?ed up."
     	  echo "Governance action submition failed, see my_outputs.txt file for error logs."
+          exit 0
 	fi
+verify_mem_pool
+
 unset INDEXNO
 unset AMOUNT

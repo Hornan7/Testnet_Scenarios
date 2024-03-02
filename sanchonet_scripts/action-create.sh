@@ -22,7 +22,6 @@ building_gov_action() {
     #create the action file directory   
     mkdir action-create 2>/dev/null
     rm my_outputs.txt 2>/dev/null
-     
     #create the vote files
     while true; do
             if [ "$INDEXNO" != "0" ]; then
@@ -37,7 +36,7 @@ building_gov_action() {
   		    --out-file action-create/action${INDEXNO}.action
                 echo " --proposal-file action-create/action${INDEXNO}.action" >> action-create/txvar.txt
                 echo "Preparing action number ${INDEXNO} "
-                sleep 0.3
+                sleep 0.1
 		AMOUNT=$((AMOUNT-1000000))
                 INDEXNO=$((INDEXNO-1))
             else

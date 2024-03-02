@@ -9,3 +9,7 @@ curl -O -J https://raw.githubusercontent.com/Hornan7/SanchoBatchVote/main/dRepvo
 sudo chmod 700 dRepvote.sh
 sudo chmod 700 action-create.sh
 ```
+### Here is a link to both scripts
+[action-create.sh](https://github.com/Hornan7/Testnet_Scenarios/blob/main/sanchonet_scripts/action-create.sh)
+[dRepvote.sh](https://github.com/Hornan7/SanchoBatchVote/blob/main/dRepvote.sh)
+

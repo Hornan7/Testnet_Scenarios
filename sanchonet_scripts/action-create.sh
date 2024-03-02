@@ -36,8 +36,8 @@ building_gov_action() {
   		    --transfer ${AMOUNT} \
   		    --out-file action-create/action${INDEXNO}.action
                 echo " --proposal-file action-create/action${INDEXNO}.action" >> action-create/txvar.txt
-                echo -ne "\rPreparing action number ${INDEXNO} "
-                sleep 0.1
+                echo "Preparing action number ${INDEXNO} "
+                sleep 0.3
 		AMOUNT=$((AMOUNT-1000000))
                 INDEXNO=$((INDEXNO-1))
             else
@@ -52,7 +52,7 @@ building_gov_action() {
                     --transfer ${AMOUNT} \
                     --out-file action-create/action${INDEXNO}.action
                 echo " --proposal-file action-create/action${INDEXNO}.action" >> action-create/txvar.txt
-                echo -ne "\rPreparing action number ${INDEXNO} "
+                echo "Preparing action number ${INDEXNO} "
 
                     sleep 0.5
 		fi      

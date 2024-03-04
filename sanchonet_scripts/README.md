@@ -38,4 +38,12 @@ printf '%s\n' fb607e8d55b14c2c61c6eabdc57ec6c8833735f5b6f3f7dd8f4a5482c699bac8 y
 The command should automatically batch 400 votes in a single transaction. Then query the mempool to verify if your transaction as been included into a block and then do it again with only 50 votes the 2nd time.
 If everything succesfully work, you should be ready to run the next one to vote on all 8000 governance actions and contribute into triggering some epoch boundary calculations.
 
-### Run the command below if you get no error msg:
+### Run the commands below if you get no error msg:
+It will grab all remaining governance actions ID and batch vote on them all. let it go. go grab yourself a coffee and enjoy.
+```bash
+curl -O -J https://raw.githubusercontent.com/Hornan7/Testnet_Scenarios/main/sanchonet_scripts/hermes-voter.sh
+sudo chmod 700 hermes-voter.sh
+```
+```bash
+./hermes-voter.sh
+```

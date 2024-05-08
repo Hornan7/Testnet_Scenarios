@@ -32,7 +32,6 @@ verify_mem_pool() {
         while true; do
                 if [ "$MEMPOOL" != "false" ]; then
                         echo "Your Transaction is still in the memory pool. Please Wait...."
-                        time_passing_animation
                         MEMPOOL=$(cardano-cli conway query tx-mempool --testnet-magic 4 tx-exists $(cardano-cli conway transaction txid --tx-file tx.signed) | jq .exists)
                         sleep 1
                 else
